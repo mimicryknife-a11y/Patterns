@@ -45,6 +45,15 @@ public:
 	void undo() override { cout << "Закрываем браузер" << endl; }
 };
 
+class RestardCommand : public Command {
+private:
+	ComputerSystem* system;
+public:
+	RestardCommand(ComputerSystem* system) : system(system) {}
+	void execute() override { cout << "Перезапускается пк!" << endl; }
+	void undo() override { cout << "Остановка перезапуска пк!" << endl; }
+};
+
 class RemoteControl {
 private:
 	vector<Command*> commands;
@@ -71,18 +80,29 @@ int main() {
 	OpenFileCommand* ofc = new OpenFileCommand(pc, "main.cpp");
 	ShutdownCommand* sdc = new ShutdownCommand(pc);
 	LaunchBrowserCommand* lbc = new LaunchBrowserCommand(pc);
+	RestardCommand* rc = new RestardCommand(pc);
 
 	RemoteControl* controller = new RemoteControl();
 	controller->addCommand(ofc);
 	controller->addCommand(sdc);
 	controller->addCommand(lbc);
+	controller->addCommand(rc);
 
 	controller->pressButton();
 	controller->undoLast();
 
 	delete controller;
+	delete rc;
 	delete lbc;
 	delete sdc;
 	delete ofc;
 	delete pc;
+
+	ComputerSystem* pc1 = new ComputerSystem();
+	OpenFileCommand* ofc1 = new OpenFileCommand(pc1, "main.cpp");
+	ofc1->execute();
+	ofc1->undo();
+	OpenFileCommand* ofc2 = new OpenFileCommand(pc1, "images/logo.");
+	ofc2->execute();
+	ofc2->undo();
 }
