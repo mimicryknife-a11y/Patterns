@@ -10,9 +10,15 @@ public:
 };
 
 class Espresso : public Beverage {
-public: 
+public:
 	string getDescription() override { return "Вкусна!"; }
 	double getCost() override { return 7.77; }
+};
+
+class Tea : public Beverage {
+public:
+	string getDescription() override { return "Китайский чай!"; }
+	double getCost() override { return 1.23; }
 };
 
 class CondimentDecorator : public Beverage {
@@ -48,7 +54,7 @@ public:
 class GoldenPoop : public CondimentDecorator {
 public:
 	GoldenPoop(Beverage* beverage) : CondimentDecorator(beverage) {}
-	string getDescription() override { return beverage->getDescription() + " [Ты не хочешь этого знать!]"; }
+	string getDescription() override { return beverage->getDescription() + " [100% натуральный шоколад]"; }
 	double getCost() override { return beverage->getCost() + 3.0; }
 };
 
@@ -56,6 +62,10 @@ int main() {
 	setlocale(0, "ru");
 
 	CondimentDecorator* myCoffee = new GoldenPoop(new Milk(new Espresso()));
+	cout << "Ваше кофе: " << myCoffee->getDescription() << endl;
+	cout << "Цена кофе: " << myCoffee->getCost() << "$" << endl;
+
+	myCoffee = new Syrup(new Milk(new Tea()));
 	cout << "Ваше кофе: " << myCoffee->getDescription() << endl;
 	cout << "Цена кофе: " << myCoffee->getCost() << "$" << endl;
 
