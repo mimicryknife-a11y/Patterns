@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_launch_browser_command" kind="class" language="C++" prot="public">
+    <compoundname>LaunchBrowserCommand</compoundname>
+    <basecompoundref refid="class_command" prot="public" virt="non-virtual">Command</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_launch_browser_command_1ac2968cb5daa25d4508c65e11797e1582" prot="private" static="no" mutable="no">
+        <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+        <definition>ComputerSystem* LaunchBrowserCommand::system</definition>
+        <argsstring></argsstring>
+        <name>system</name>
+        <qualifiedname>LaunchBrowserCommand::system</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="108" column="16" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_launch_browser_command_1a34413ca742aeb01b2e65fdd70ab84e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LaunchBrowserCommand::LaunchBrowserCommand</definition>
+        <argsstring>(ComputerSystem *system)</argsstring>
+        <name>LaunchBrowserCommand</name>
+        <qualifiedname>LaunchBrowserCommand::LaunchBrowserCommand</qualifiedname>
+        <param>
+          <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор команды </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>system Указатель на систему </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="115" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_launch_browser_command_1a7095647975f6e36fa51e8831020e6f60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void LaunchBrowserCommand::execute</definition>
+        <argsstring>() override</argsstring>
+        <name>execute</name>
+        <qualifiedname>LaunchBrowserCommand::execute</qualifiedname>
+        <reimplements refid="class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7">execute</reimplements>
+        <briefdescription>
+<para>Функция выполнения команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="120" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_launch_browser_command_1a1f74fc3f40306db43bf9df7289388662" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void LaunchBrowserCommand::undo</definition>
+        <argsstring>() override</argsstring>
+        <name>undo</name>
+        <qualifiedname>LaunchBrowserCommand::undo</qualifiedname>
+        <reimplements refid="class_command_1ad5eccd34dc85abda2cd0c21d819c17dc">undo</reimplements>
+        <briefdescription>
+<para>Функция отмены команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="125" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="125" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Команды открытия браузера Наследует интерфейс команды </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>LaunchBrowserCommand</label>
+        <link refid="class_launch_browser_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>LaunchBrowserCommand</label>
+        <link refid="class_launch_browser_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="106" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="106" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_launch_browser_command_1a7095647975f6e36fa51e8831020e6f60" prot="public" virt="virtual"><scope>LaunchBrowserCommand</scope><name>execute</name></member>
+      <member refid="class_launch_browser_command_1a34413ca742aeb01b2e65fdd70ab84e3a" prot="public" virt="non-virtual"><scope>LaunchBrowserCommand</scope><name>LaunchBrowserCommand</name></member>
+      <member refid="class_launch_browser_command_1ac2968cb5daa25d4508c65e11797e1582" prot="private" virt="non-virtual"><scope>LaunchBrowserCommand</scope><name>system</name></member>
+      <member refid="class_launch_browser_command_1a1f74fc3f40306db43bf9df7289388662" prot="public" virt="virtual"><scope>LaunchBrowserCommand</scope><name>undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="dir_c2d43cd6db9e4fc1cfec2df2e66cf121" kind="dir">
+    <compoundname>creations-pattern/Creations Pattern</compoundname>
+    <innerfile refid="creations-pattern_2_creations_01_pattern_2main_8cpp">main.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="creations-pattern/Creations Pattern/"/>
+  </compounddef>
+</doxygen>

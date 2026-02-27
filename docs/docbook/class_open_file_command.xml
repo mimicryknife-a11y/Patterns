@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_open_file_command" xml:lang="ru">
+<title>Класс OpenFileCommand</title>
+<indexterm><primary>OpenFileCommand</primary></indexterm>
+<para>
+
+<para>Команды открытия файла Наследует интерфейс команды </para>
+ 
+</para>
+<para>Граф наследования:OpenFileCommand:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_open_file_command.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_open_file_command_1a7c12d303c20d916aa697a207706d8148">OpenFileCommand</link> (<link linkend="_class_computer_system">ComputerSystem</link> *system, const string &amp;fileName)</para>
+
+<para>Конструктор команды </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_open_file_command_1ad4c19347016458e2e9ef1e837e4ad0fe">execute</link> () override</para>
+
+<para>Функция выполнения команды </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_open_file_command_1aeea4ae13a0c1748c00702f16c52f4e89">undo</link> () override</para>
+
+<para>Функция отмены команды </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Команды открытия файла Наследует интерфейс команды </para>
+</section>
+<section>
+<title>Конструктор(ы)</title>
+<anchor xml:id="_class_open_file_command_1a7c12d303c20d916aa697a207706d8148"/><section>
+    <title>OpenFileCommand()</title>
+<indexterm><primary>OpenFileCommand</primary><secondary>OpenFileCommand</secondary></indexterm>
+<indexterm><primary>OpenFileCommand</primary><secondary>OpenFileCommand</secondary></indexterm>
+<para><computeroutput>OpenFileCommand::OpenFileCommand (<link linkend="_class_computer_system">ComputerSystem</link> * system, const string &amp; fileName)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Конструктор команды </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>system Указатель на систему </para>
+
+<para>string Название файла </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_open_file_command_1ad4c19347016458e2e9ef1e837e4ad0fe"/><section>
+    <title>execute()</title>
+<indexterm><primary>execute</primary><secondary>OpenFileCommand</secondary></indexterm>
+<indexterm><primary>OpenFileCommand</primary><secondary>execute</secondary></indexterm>
+<para><computeroutput>void OpenFileCommand::execute ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Функция выполнения команды </para>
+</para>
+<para>
+Замещает <link linkend="_class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7">Command</link>.</para>
+</section>
+<anchor xml:id="_class_open_file_command_1aeea4ae13a0c1748c00702f16c52f4e89"/><section>
+    <title>undo()</title>
+<indexterm><primary>undo</primary><secondary>OpenFileCommand</secondary></indexterm>
+<indexterm><primary>OpenFileCommand</primary><secondary>undo</secondary></indexterm>
+<para><computeroutput>void OpenFileCommand::undo ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Функция отмены команды </para>
+</para>
+<para>
+Замещает <link linkend="_class_command_1ad5eccd34dc85abda2cd0c21d819c17dc">Command</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+behavioral-pattern/Behavioral pattern/main.cpp</section>
+</section>

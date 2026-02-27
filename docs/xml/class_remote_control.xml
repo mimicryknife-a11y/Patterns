@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_remote_control" kind="class" language="C++" prot="public">
+    <compoundname>RemoteControl</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_remote_control_1a0c991f525d43c71586ea5e6b9f63eaab" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_command" kindref="compound">Command</ref> * &gt;</type>
+        <definition>vector&lt;Command*&gt; RemoteControl::commands</definition>
+        <argsstring></argsstring>
+        <name>commands</name>
+        <qualifiedname>RemoteControl::commands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="159" column="8" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_remote_control_1ac40bf5f2f259c34f7223b2d28e8b08e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoteControl::addCommand</definition>
+        <argsstring>(Command *cmd)</argsstring>
+        <name>addCommand</name>
+        <qualifiedname>RemoteControl::addCommand</qualifiedname>
+        <param>
+          <type><ref refid="class_command" kindref="compound">Command</ref> *</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+<para>Добавляет команду в очередь </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cmd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Команда </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="166" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_remote_control_1af50cd5c681a1bfe2f33a160f6b7c5e7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoteControl::pressButton</definition>
+        <argsstring>()</argsstring>
+        <name>pressButton</name>
+        <qualifiedname>RemoteControl::pressButton</qualifiedname>
+        <briefdescription>
+<para>Запускает все команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="171" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="171" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_remote_control_1a23169e89ccd0051130e668c2f124d860" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoteControl::undoLast</definition>
+        <argsstring>()</argsstring>
+        <name>undoLast</name>
+        <qualifiedname>RemoteControl::undoLast</qualifiedname>
+        <briefdescription>
+<para>Отменяет последнюю команду и удаляет её из очереди </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="180" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="180" bodyend="185"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Класс управления командами </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="157" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="157" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_remote_control_1ac40bf5f2f259c34f7223b2d28e8b08e9" prot="public" virt="non-virtual"><scope>RemoteControl</scope><name>addCommand</name></member>
+      <member refid="class_remote_control_1a0c991f525d43c71586ea5e6b9f63eaab" prot="private" virt="non-virtual"><scope>RemoteControl</scope><name>commands</name></member>
+      <member refid="class_remote_control_1af50cd5c681a1bfe2f33a160f6b7c5e7a" prot="public" virt="non-virtual"><scope>RemoteControl</scope><name>pressButton</name></member>
+      <member refid="class_remote_control_1a23169e89ccd0051130e668c2f124d860" prot="public" virt="non-virtual"><scope>RemoteControl</scope><name>undoLast</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

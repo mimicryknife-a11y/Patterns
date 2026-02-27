@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="dir_81a4f73ba55e4511c650357626429557" kind="dir">
+    <compoundname>structure-pattern/Structural Pattern</compoundname>
+    <innerfile refid="structure-pattern_2_structural_01_pattern_2main_8cpp">main.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="structure-pattern/Structural Pattern/"/>
+  </compounddef>
+</doxygen>

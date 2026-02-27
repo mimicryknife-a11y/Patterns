@@ -1,0 +1,51 @@
+\doxysection{Класс Character\+Factory}
+\hypertarget{class_character_factory}{}\label{class_character_factory}\index{CharacterFactory@{CharacterFactory}}
+
+
+Абстрактный класс фабрики персонажей  
+
+
+Граф наследования:\+Character\+Factory:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_character_factory}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_character_factory_a3e6c731ccaf371b16220933036207dba}{create\+Character}} ()=0
+\begin{DoxyCompactList}\small\item\em Не реализованная функция создания персонажа. \end{DoxyCompactList}\item 
+\Hypertarget{class_character_factory_a6f13a9955e9286aac376e8c4445f2664}\label{class_character_factory_a6f13a9955e9286aac376e8c4445f2664} 
+void {\bfseries spawn\+And\+Attack} ()
+\begin{DoxyCompactList}\small\item\em Функция тестирующая персонажа. Имеет реализацию по умолчанию. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактный класс фабрики персонажей 
+
+\label{doc-func-members}
+\Hypertarget{class_character_factory_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_character_factory_a3e6c731ccaf371b16220933036207dba}\index{CharacterFactory@{CharacterFactory}!createCharacter@{createCharacter}}
+\index{createCharacter@{createCharacter}!CharacterFactory@{CharacterFactory}}
+\doxysubsubsection{\texorpdfstring{createCharacter()}{createCharacter()}}
+{\footnotesize\ttfamily \label{class_character_factory_a3e6c731ccaf371b16220933036207dba} 
+virtual \doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Character\+Factory::\+create\+Character (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Не реализованная функция создания персонажа. 
+
+\begin{DoxyReturn}{Возвращает}
+Character\texorpdfstring{$\ast$}{*} Указатель на персонажа 
+\end{DoxyReturn}
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_factory_ab6649aa2561984b9001ace4bcda3db64}{Archer\+Factory}}, \doxymbox{\hyperlink{class_knight_factory_a0ca5c86535309adcedd03762810aea78}{Knight\+Factory}}, \doxymbox{\hyperlink{class_mage_factory_aa4e95840bd6665e14c3eda4c280faed6}{Mage\+Factory}} и \doxymbox{\hyperlink{class_warrior_factory_a9df8c9e4fc56457d08ff5b6535913646}{Warrior\+Factory}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+creations-\/pattern/\+\+Creations Pattern/\+main.\+cpp\end{DoxyCompactItemize}

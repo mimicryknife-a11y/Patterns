@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="ru">
+<title>Классы</title>
+Классы с их кратким описанием.<link linkend="_class_archer">Archer</link>
+<para>Реализация класса лучника Наследует интерфейс персонажа </para>
+<link linkend="_class_archer_factory">ArcherFactory</link>
+<para>Реализация фабрики лучников. Наследует абстрактный класс фабрики персонаже </para>
+<link linkend="_class_beverage">Beverage</link>
+<para>Интерфейс напитка </para>
+<link linkend="_class_character">Character</link>
+<para>Интерфейс персонажа </para>
+<link linkend="_class_character_factory">CharacterFactory</link>
+<para>Абстрактный класс фабрики персонажей </para>
+<link linkend="_class_command">Command</link>
+<para>Интерфейс команды </para>
+<link linkend="_class_computer_system">ComputerSystem</link>
+<para>Класс компьютера </para>
+<link linkend="_class_condiment_decorator">CondimentDecorator</link>
+<para>Декоратор напитка Наследует интерфейс напитка </para>
+<link linkend="_class_espresso">Espresso</link>
+<para>Напиток экспрессо Наследует интерфейс напитка </para>
+<link linkend="_class_golden_poop">GoldenPoop</link>
+<para>Золотая какашка (Декоратор напитка) Наследует декоратор напитка </para>
+<link linkend="_class_knight">Knight</link>
+<para>Реализация класса рыцаря Наследует интерфейс персонажа </para>
+<link linkend="_class_knight_factory">KnightFactory</link>
+<para>Реализация фабрики рыцарей. Наследует абстрактный класс фабрики персонаже </para>
+<link linkend="_class_launch_browser_command">LaunchBrowserCommand</link>
+<para>Команды открытия браузера Наследует интерфейс команды </para>
+<link linkend="_class_mage">Mage</link>
+<para>Реализация класса мага Наследует интерфейс персонажа </para>
+<link linkend="_class_mage_factory">MageFactory</link>
+<para>Реализация фабрики магов. Наследует абстрактный класс фабрики персонаже </para>
+<link linkend="_class_milk">Milk</link>
+<para>Молоко (Декоратор напитка) Наследует декоратор напитка </para>
+<link linkend="_class_open_file_command">OpenFileCommand</link>
+<para>Команды открытия файла Наследует интерфейс команды </para>
+<link linkend="_class_remote_control">RemoteControl</link>
+<para>Класс управления командами </para>
+<link linkend="_class_restard_command">RestardCommand</link>
+<para>Команды перезапуска команды Наследует интерфейс команды </para>
+<link linkend="_class_shutdown_command">ShutdownCommand</link>
+<para>Команды выключения компьютера Наследует интерфейс команды </para>
+<link linkend="_class_sugar">Sugar</link>
+<para>Сахар (Декоратор напитка) Наследует декоратор напитка </para>
+<link linkend="_class_syrup">Syrup</link>
+<para>Сироп (Декоратор напитка) Наследует декоратор напитка </para>
+<link linkend="_class_tea">Tea</link>
+<para>Напиток чай Наследует интерфейс напитка </para>
+<link linkend="_class_warrior">Warrior</link>
+<para>Реализация класса воина Наследует интерфейс персонажа </para>
+<link linkend="_class_warrior_factory">WarriorFactory</link>
+<para>Реализация фабрики воинов. Наследует абстрактный класс фабрики персонаже </para>
+</section>

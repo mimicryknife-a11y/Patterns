@@ -1,0 +1,103 @@
+\doxysection{Класс Condiment\+Decorator}
+\hypertarget{class_condiment_decorator}{}\label{class_condiment_decorator}\index{CondimentDecorator@{CondimentDecorator}}
+
+
+Декоратор напитка Наследует интерфейс напитка  
+
+
+Граф наследования:\+Condiment\+Decorator:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_condiment_decorator}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_condiment_decorator_a15b5ebd546cbdb63c7097d72bf6b6faf}{Condiment\+Decorator}} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}beverage)
+\begin{DoxyCompactList}\small\item\em Конструктор напитка \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{get\+Description}} () override
+\begin{DoxyCompactList}\small\item\em Получает описание родителя \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_condiment_decorator_a13d93696470b1f11fce6b66d250c78df}{get\+Cost}} () override
+\begin{DoxyCompactList}\small\item\em Получает стоимость родителя \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_condiment_decorator_a88e7aee32fb2f878046db515945bd672}\label{class_condiment_decorator_a88e7aee32fb2f878046db515945bd672} 
+\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*} {\bfseries beverage}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Декоратор напитка Наследует интерфейс напитка 
+
+\label{doc-constructors}
+\Hypertarget{class_condiment_decorator_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_condiment_decorator_a15b5ebd546cbdb63c7097d72bf6b6faf}\index{CondimentDecorator@{CondimentDecorator}!CondimentDecorator@{CondimentDecorator}}
+\index{CondimentDecorator@{CondimentDecorator}!CondimentDecorator@{CondimentDecorator}}
+\doxysubsubsection{\texorpdfstring{CondimentDecorator()}{CondimentDecorator()}}
+{\footnotesize\ttfamily \label{class_condiment_decorator_a15b5ebd546cbdb63c7097d72bf6b6faf} 
+Condiment\+Decorator::\+\+Condiment\+Decorator (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}}]{beverage}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор напитка 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em beverage} & напиток родитель \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_condiment_decorator_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_condiment_decorator_a13d93696470b1f11fce6b66d250c78df}\index{CondimentDecorator@{CondimentDecorator}!getCost@{getCost}}
+\index{getCost@{getCost}!CondimentDecorator@{CondimentDecorator}}
+\doxysubsubsection{\texorpdfstring{getCost()}{getCost()}}
+{\footnotesize\ttfamily \label{class_condiment_decorator_a13d93696470b1f11fce6b66d250c78df} 
+double Condiment\+Decorator::\+get\+Cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Получает стоимость родителя 
+
+\begin{DoxyReturn}{Возвращает}
+double Возвращает стоимость родителя 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_beverage_a65460ff419cb88cce7c465f719b0c1f4}{Beverage}}.
+
+
+
+Переопределяется в \doxymbox{\hyperlink{class_golden_poop_a130a2f96d713af40b8d032d4b155c8c6}{Golden\+Poop}}, \doxymbox{\hyperlink{class_milk_a81e434be08b65ff9e5a445c393fde68d}{Milk}}, \doxymbox{\hyperlink{class_sugar_a6518625592942a5a36f2bc6d845ca48d}{Sugar}} и \doxymbox{\hyperlink{class_syrup_a25d5acf5e71a41da1a42bba6973103a1}{Syrup}}.
+
+\Hypertarget{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}\index{CondimentDecorator@{CondimentDecorator}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!CondimentDecorator@{CondimentDecorator}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6} 
+string Condiment\+Decorator::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Получает описание родителя 
+
+\begin{DoxyReturn}{Возвращает}
+string Возвращает описание родителя 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_beverage_a23e305526d707afe1a006e441a71a8b8}{Beverage}}.
+
+
+
+Переопределяется в \doxymbox{\hyperlink{class_golden_poop_a7bc9980feb96e85e6c760ebffc749305}{Golden\+Poop}}, \doxymbox{\hyperlink{class_milk_a693769c2fd19713253939665d12fa5ab}{Milk}}, \doxymbox{\hyperlink{class_sugar_afe82094b43e6da7041983c35bfb7197b}{Sugar}} и \doxymbox{\hyperlink{class_syrup_ae59f9838cff7fa21d989a373c1634bfe}{Syrup}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+structure-\/pattern/\+\+Structural Pattern/\+main.\+cpp\end{DoxyCompactItemize}

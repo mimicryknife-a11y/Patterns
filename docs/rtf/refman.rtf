@@ -1,0 +1,3287 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset204\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\info 
+{\title {\comment Patterns  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}Patterns}
+{\comment \'D1\'EE\'E7\'E4\'E0\'ED\'EE \'F1\'E8\'F1\'F2\'E5\'EC\'EE\'E9 doxygen 1.16.1.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Patterns}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+\'C2\'E5\'F0\'F1\'E8\'FF 1.0\par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CE\'E3\'EB\'E0\'E2\'EB\'E5\'ED\'E8\'E5\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\par \pard\plain 
+\par \pard\plain 
+\pard\plain \s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Patterns }\par \pard\plain 
+{\tc\tcl1 \v Patterns}
+{\xe \v Patterns}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\par
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Beverage }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+CondimentDecorator }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+GoldenPoop }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Milk }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sugar }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Syrup }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Espresso }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Tea }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Character }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Archer }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Knight }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Mage }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Warrior }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+CharacterFactory }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+ArcherFactory }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+KnightFactory }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+MageFactory }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+WarriorFactory }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAES \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Command }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABW \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+LaunchBrowserCommand }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+OpenFileCommand }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+RestardCommand }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+ShutdownCommand }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+ComputerSystem }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+RemoteControl }\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CA\'EB\'E0\'F1\'F1\'FB \'F1 \'E8\'F5 \'EA\'F0\'E0\'F2\'EA\'E8\'EC \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\'EC.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Archer} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'EB\'F3\'F7\'ED\'E8\'EA\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b ArcherFactory} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EB\'F3\'F7\'ED\'E8\'EA\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Beverage} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Character} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b CharacterFactory} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5\'E9 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Command} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b ComputerSystem} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EA\'EE\'EC\'EF\'FC\'FE\'F2\'E5\'F0\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b CondimentDecorator} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Espresso} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E0\'EF\'E8\'F2\'EE\'EA \'FD\'EA\'F1\'EF\'F0\'E5\'F1\'F1\'EE \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b GoldenPoop} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C7\'EE\'EB\'EE\'F2\'E0\'FF \'EA\'E0\'EA\'E0\'F8\'EA\'E0 (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Knight} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'F0\'FB\'F6\'E0\'F0\'FF \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b KnightFactory} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'F0\'FB\'F6\'E0\'F0\'E5\'E9. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LaunchBrowserCommand} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EE\'F2\'EA\'F0\'FB\'F2\'E8\'FF \'E1\'F0\'E0\'F3\'E7\'E5\'F0\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Mage} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'EC\'E0\'E3\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b MageFactory} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EC\'E0\'E3\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Milk} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'EE\'EB\'EE\'EA\'EE (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b OpenFileCommand} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EE\'F2\'EA\'F0\'FB\'F2\'E8\'FF \'F4\'E0\'E9\'EB\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b RemoteControl} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'F3\'EF\'F0\'E0\'E2\'EB\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'E0\'EC\'E8 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b RestardCommand} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EF\'E5\'F0\'E5\'E7\'E0\'EF\'F3\'F1\'EA\'E0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b ShutdownCommand} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'E2\'FB\'EA\'EB\'FE\'F7\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'EF\'FC\'FE\'F2\'E5\'F0\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Sugar} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'E0\'F5\'E0\'F0 (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Syrup} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'E8\'F0\'EE\'EF (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Tea} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E0\'EF\'E8\'F2\'EE\'EA \'F7\'E0\'E9 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Warrior} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'E2\'EE\'E8\'ED\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b WarriorFactory} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'E2\'EE\'E8\'ED\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAES \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB{\tc \v \'CA\'EB\'E0\'F1\'F1\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Archer\par \pard\plain 
+{\tc\tcl2 \v Archer}
+{\xe \v Archer}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'EB\'F3\'F7\'ED\'E8\'EA\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Archer:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_archer.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getType} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attack} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'EA\'F0\'E8\'EF\'F2 \'E0\'F2\'E0\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getHealth} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'EB\'F3\'F7\'ED\'E8\'EA\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v attack\:Archer}
+{\xe \v Archer\:attack}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Archer::attack (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'EA\'F0\'E8\'EF\'F2 \'E0\'F2\'E0\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getHealth\:Archer}
+{\xe \v Archer\:getHealth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Archer::getHealth (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+int \'CC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getType\:Archer}
+{\xe \v Archer\:getType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Archer::getType (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'D3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 ArcherFactory\par \pard\plain 
+{\tc\tcl2 \v ArcherFactory}
+{\xe \v ArcherFactory}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EB\'F3\'F7\'ED\'E8\'EA\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:ArcherFactory:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_archer_factory.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Character} * {\b createCharacter} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'EB\'F3\'F7\'ED\'E8\'EA\'E0. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'EB\'F3\'F7\'ED\'E8\'EA\'E0. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CharacterFactory}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b spawnAndAttack} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'F2\'E5\'F1\'F2\'E8\'F0\'F3\'FE\'F9\'E0\'FF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \'C8\'EC\'E5\'E5\'F2 \'F0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FE \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EB\'F3\'F7\'ED\'E8\'EA\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v createCharacter\:ArcherFactory}
+{\xe \v ArcherFactory\:createCharacter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Character} * ArcherFactory::createCharacter (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'EB\'F3\'F7\'ED\'E8\'EA\'E0. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'EB\'F3\'F7\'ED\'E8\'EA\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Character* \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'EB\'F3\'F7\'ED\'E8\'EA\'E0. \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b CharacterFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Beverage\par \pard\plain 
+{\tc\tcl2 \v Beverage}
+{\xe \v Beverage}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Beverage:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_beverage.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual string {\b getDescription} ()=0\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b getCost} ()=0\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:Beverage}
+{\xe \v Beverage\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual double Beverage::getCost (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'D1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Espresso} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b GoldenPoop} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Milk} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Sugar} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Syrup} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b Tea} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:Beverage}
+{\xe \v Beverage\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual string Beverage::getDescription (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'CE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Espresso} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABA \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b GoldenPoop} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Milk} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Sugar} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABD \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Syrup} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABE \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b Tea} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Character\par \pard\plain 
+{\tc\tcl2 \v Character}
+{\xe \v Character}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Character:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_character.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual string {\b getType} ()=0\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual int {\b getHealth} ()=0\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b attack} ()=0\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v attack\:Character}
+{\xe \v Character\:attack}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void Character::attack (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b Archer} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Knight} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b Warrior} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getHealth\:Character}
+{\xe \v Character\:getHealth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual int Character::getHealth (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+int \'CC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b Archer} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Knight} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Mage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABL \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b Warrior} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getType\:Character}
+{\xe \v Character\:getType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual string Character::getType (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'D3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b Archer} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Knight} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABN \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Mage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABO \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b Warrior} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 CharacterFactory\par \pard\plain 
+{\tc\tcl2 \v CharacterFactory}
+{\xe \v CharacterFactory}
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5\'E9 }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:CharacterFactory:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_character_factory.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b Character} * {\b createCharacter} ()=0\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E5 \'F0\'E5\'E0\'EB\'E8\'E7\'EE\'E2\'E0\'ED\'ED\'E0\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'FF \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b spawnAndAttack} (){\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'F2\'E5\'F1\'F2\'E8\'F0\'F3\'FE\'F9\'E0\'FF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \'C8\'EC\'E5\'E5\'F2 \'F0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FE \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5\'E9 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v createCharacter\:CharacterFactory}
+{\xe \v CharacterFactory\:createCharacter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual {\b Character} * CharacterFactory::createCharacter (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E5 \'F0\'E5\'E0\'EB\'E8\'E7\'EE\'E2\'E0\'ED\'ED\'E0\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'FF \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Character* \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b ArcherFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b KnightFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b MageFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABU \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b WarriorFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Command\par \pard\plain 
+{\tc\tcl2 \v Command}
+{\xe \v Command}
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Command:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_command.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b execute} ()=0\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b undo} ()=0\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v execute\:Command}
+{\xe \v Command\:execute}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void Command::execute (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b LaunchBrowserCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b OpenFileCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b RestardCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACB \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b ShutdownCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v undo\:Command}
+{\xe \v Command\:undo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void Command::undo (){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b LaunchBrowserCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACE \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b OpenFileCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACF \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b RestardCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACG \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b ShutdownCommand} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+behavioral-pattern/Behavioral pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 ComputerSystem\par \pard\plain 
+{\tc\tcl2 \v ComputerSystem}
+{\xe \v ComputerSystem}
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EA\'EE\'EC\'EF\'FC\'FE\'F2\'E5\'F0\'E0 }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b openFile} (const string &file)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'E2\'E0\'E5\'F2 \'F4\'E0\'E9\'EB }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b shutdown} (){\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'EA\'EB\'FE\'F7\'E0\'E5\'F2 \'EA\'EE\'EC\'EF\'FC\'FE\'F2\'E5\'F0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b launchBrowser} (){\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EA\'EB\'FE\'F7\'E0\'E5\'EC \'E1\'F0\'E0\'F3\'E7\'E5\'F0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EA\'EE\'EC\'EF\'FC\'FE\'F2\'E5\'F0\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v openFile\:ComputerSystem}
+{\xe \v ComputerSystem\:openFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ComputerSystem::openFile (const string & file){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'E2\'E0\'E5\'F2 \'F4\'E0\'E9\'EB }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i file} \cell }{\'CD\'E0\'E7\'E2\'E0\'ED\'E8\'E5 \'F4\'E0\'E9\'EB\'E0 \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+behavioral-pattern/Behavioral pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 CondimentDecorator\par \pard\plain 
+{\tc\tcl2 \v CondimentDecorator}
+{\xe \v CondimentDecorator}
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:CondimentDecorator:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_condiment_decorator.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CondimentDecorator} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDescription} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getCost} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'F9\'E8\'F9\'E5\'ED\'ED\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Beverage} * {\b beverage}{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v CondimentDecorator\:CondimentDecorator}
+{\xe \v CondimentDecorator\:CondimentDecorator}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+CondimentDecorator::CondimentDecorator ({\b Beverage} * beverage){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i beverage} \cell }{\'ED\'E0\'EF\'E8\'F2\'EE\'EA \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FC \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:CondimentDecorator}
+{\xe \v CondimentDecorator\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double CondimentDecorator::getCost (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Beverage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2\'F1\'FF \'E2 {\b GoldenPoop} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Milk} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Sugar} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b Syrup} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:CondimentDecorator}
+{\xe \v CondimentDecorator\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string CondimentDecorator::getDescription (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Beverage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2\'F1\'FF \'E2 {\b GoldenPoop} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Milk} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b Sugar} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABD \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b Syrup} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABE \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Espresso\par \pard\plain 
+{\tc\tcl2 \v Espresso}
+{\xe \v Espresso}
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E0\'EF\'E8\'F2\'EE\'EA \'FD\'EA\'F1\'EF\'F0\'E5\'F1\'F1\'EE \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Espresso:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_espresso.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDescription} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getCost} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E0\'EF\'E8\'F2\'EE\'EA \'FD\'EA\'F1\'EF\'F0\'E5\'F1\'F1\'EE \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:Espresso}
+{\xe \v Espresso\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Espresso::getCost (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'D1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Beverage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:Espresso}
+{\xe \v Espresso\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Espresso::getDescription (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'CE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Beverage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 GoldenPoop\par \pard\plain 
+{\tc\tcl2 \v GoldenPoop}
+{\xe \v GoldenPoop}
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C7\'EE\'EB\'EE\'F2\'E0\'FF \'EA\'E0\'EA\'E0\'F8\'EA\'E0 (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:GoldenPoop:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_golden_poop.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b GoldenPoop} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDescription} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getCost} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CondimentDecorator} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C7\'E0\'F9\'E8\'F9\'E5\'ED\'ED\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Beverage} * {\b beverage}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C7\'EE\'EB\'EE\'F2\'E0\'FF \'EA\'E0\'EA\'E0\'F8\'EA\'E0 (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v GoldenPoop\:GoldenPoop}
+{\xe \v GoldenPoop\:GoldenPoop}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+GoldenPoop::GoldenPoop ({\b Beverage} * beverage){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i beverage} \cell }{\'ED\'E0\'EF\'E8\'F2\'EE\'EA \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FC \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:GoldenPoop}
+{\xe \v GoldenPoop\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double GoldenPoop::getCost (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:GoldenPoop}
+{\xe \v GoldenPoop\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string GoldenPoop::getDescription (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Knight\par \pard\plain 
+{\tc\tcl2 \v Knight}
+{\xe \v Knight}
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'F0\'FB\'F6\'E0\'F0\'FF \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Knight:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_knight.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getType} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attack} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'EA\'F0\'E8\'EF\'F2 \'E0\'F2\'E0\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getHealth} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'F0\'FB\'F6\'E0\'F0\'FF \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v attack\:Knight}
+{\xe \v Knight\:attack}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Knight::attack (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'EA\'F0\'E8\'EF\'F2 \'E0\'F2\'E0\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getHealth\:Knight}
+{\xe \v Knight\:getHealth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Knight::getHealth (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+int \'CC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getType\:Knight}
+{\xe \v Knight\:getType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Knight::getType (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'D3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 KnightFactory\par \pard\plain 
+{\tc\tcl2 \v KnightFactory}
+{\xe \v KnightFactory}
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'F0\'FB\'F6\'E0\'F0\'E5\'E9. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:KnightFactory:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_knight_factory.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Character} * {\b createCharacter} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'F0\'FB\'F6\'E0\'F0\'FF. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'F0\'FB\'F6\'E0\'F0\'FF. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CharacterFactory}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b spawnAndAttack} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'F2\'E5\'F1\'F2\'E8\'F0\'F3\'FE\'F9\'E0\'FF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \'C8\'EC\'E5\'E5\'F2 \'F0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FE \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'F0\'FB\'F6\'E0\'F0\'E5\'E9. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v createCharacter\:KnightFactory}
+{\xe \v KnightFactory\:createCharacter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Character} * KnightFactory::createCharacter (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'F0\'FB\'F6\'E0\'F0\'FF. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'F0\'FB\'F6\'E0\'F0\'FF. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Character* \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'F0\'FB\'F6\'E0\'F0\'FF. \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b CharacterFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LaunchBrowserCommand\par \pard\plain 
+{\tc\tcl2 \v LaunchBrowserCommand}
+{\xe \v LaunchBrowserCommand}
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EE\'F2\'EA\'F0\'FB\'F2\'E8\'FF \'E1\'F0\'E0\'F3\'E7\'E5\'F0\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LaunchBrowserCommand:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_launch_browser_command.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b LaunchBrowserCommand} ({\b ComputerSystem} *system)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b execute} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b undo} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EE\'F2\'EA\'F0\'FB\'F2\'E8\'FF \'E1\'F0\'E0\'F3\'E7\'E5\'F0\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v LaunchBrowserCommand\:LaunchBrowserCommand}
+{\xe \v LaunchBrowserCommand\:LaunchBrowserCommand}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LaunchBrowserCommand::LaunchBrowserCommand ({\b ComputerSystem} * system){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+system \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'F1\'E8\'F1\'F2\'E5\'EC\'F3 \par
+}}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v execute\:LaunchBrowserCommand}
+{\xe \v LaunchBrowserCommand\:execute}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LaunchBrowserCommand::execute (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v undo\:LaunchBrowserCommand}
+{\xe \v LaunchBrowserCommand\:undo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LaunchBrowserCommand::undo (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACD \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+behavioral-pattern/Behavioral pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Mage\par \pard\plain 
+{\tc\tcl2 \v Mage}
+{\xe \v Mage}
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'EC\'E0\'E3\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Mage:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_mage.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getType} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attack} () override\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getHealth} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'EC\'E0\'E3\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v attack\:Mage}
+{\xe \v Mage\:attack}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Mage::attack (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getHealth\:Mage}
+{\xe \v Mage\:getHealth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Mage::getHealth (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+int \'CC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getType\:Mage}
+{\xe \v Mage\:getType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Mage::getType (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'D3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 MageFactory\par \pard\plain 
+{\tc\tcl2 \v MageFactory}
+{\xe \v MageFactory}
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EC\'E0\'E3\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:MageFactory:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_mage_factory.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Character} * {\b createCharacter} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'EC\'E0\'E3\'E0. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'EC\'E0\'E3\'E0. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CharacterFactory}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b spawnAndAttack} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'F2\'E5\'F1\'F2\'E8\'F0\'F3\'FE\'F9\'E0\'FF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \'C8\'EC\'E5\'E5\'F2 \'F0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FE \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EC\'E0\'E3\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v createCharacter\:MageFactory}
+{\xe \v MageFactory\:createCharacter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Character} * MageFactory::createCharacter (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'EC\'E0\'E3\'E0. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'EC\'E0\'E3\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Character* \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'EC\'E0\'E3\'E0. \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b CharacterFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Milk\par \pard\plain 
+{\tc\tcl2 \v Milk}
+{\xe \v Milk}
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'EE\'EB\'EE\'EA\'EE (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Milk:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_milk.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Milk} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDescription} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getCost} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CondimentDecorator} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C7\'E0\'F9\'E8\'F9\'E5\'ED\'ED\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Beverage} * {\b beverage}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'EE\'EB\'EE\'EA\'EE (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Milk\:Milk}
+{\xe \v Milk\:Milk}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Milk::Milk ({\b Beverage} * beverage){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i beverage} \cell }{\'ED\'E0\'EF\'E8\'F2\'EE\'EA \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FC \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:Milk}
+{\xe \v Milk\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Milk::getCost (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:Milk}
+{\xe \v Milk\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Milk::getDescription (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 OpenFileCommand\par \pard\plain 
+{\tc\tcl2 \v OpenFileCommand}
+{\xe \v OpenFileCommand}
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EE\'F2\'EA\'F0\'FB\'F2\'E8\'FF \'F4\'E0\'E9\'EB\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:OpenFileCommand:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_open_file_command.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OpenFileCommand} ({\b ComputerSystem} *system, const string &fileName)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b execute} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b undo} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EE\'F2\'EA\'F0\'FB\'F2\'E8\'FF \'F4\'E0\'E9\'EB\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v OpenFileCommand\:OpenFileCommand}
+{\xe \v OpenFileCommand\:OpenFileCommand}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+OpenFileCommand::OpenFileCommand ({\b ComputerSystem} * system, const string & fileName){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+system \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'F1\'E8\'F1\'F2\'E5\'EC\'F3 \par
+string \'CD\'E0\'E7\'E2\'E0\'ED\'E8\'E5 \'F4\'E0\'E9\'EB\'E0 \par
+}}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v execute\:OpenFileCommand}
+{\xe \v OpenFileCommand\:execute}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void OpenFileCommand::execute (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v undo\:OpenFileCommand}
+{\xe \v OpenFileCommand\:undo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void OpenFileCommand::undo (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACD \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+behavioral-pattern/Behavioral pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 RemoteControl\par \pard\plain 
+{\tc\tcl2 \v RemoteControl}
+{\xe \v RemoteControl}
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'F3\'EF\'F0\'E0\'E2\'EB\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'E0\'EC\'E8 }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addCommand} ({\b Command} *cmd)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'EE\'E1\'E0\'E2\'EB\'FF\'E5\'F2 \'EA\'EE\'EC\'E0\'ED\'E4\'F3 \'E2 \'EE\'F7\'E5\'F0\'E5\'E4\'FC. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b pressButton} (){\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C7\'E0\'EF\'F3\'F1\'EA\'E0\'E5\'F2 \'E2\'F1\'E5 \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b undoLast} (){\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CE\'F2\'EC\'E5\'ED\'FF\'E5\'F2 \'EF\'EE\'F1\'EB\'E5\'E4\'ED\'FE\'FE \'EA\'EE\'EC\'E0\'ED\'E4\'F3 \'E8 \'F3\'E4\'E0\'EB\'FF\'E5\'F2 \'E5\'B8 \'E8\'E7 \'EE\'F7\'E5\'F0\'E5\'E4\'E8 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'F3\'EF\'F0\'E0\'E2\'EB\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'E0\'EC\'E8 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v addCommand\:RemoteControl}
+{\xe \v RemoteControl\:addCommand}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void RemoteControl::addCommand ({\b Command} * cmd){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'EE\'E1\'E0\'E2\'EB\'FF\'E5\'F2 \'EA\'EE\'EC\'E0\'ED\'E4\'F3 \'E2 \'EE\'F7\'E5\'F0\'E5\'E4\'FC. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i cmd} \cell }{\'CA\'EE\'EC\'E0\'ED\'E4\'E0 \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+behavioral-pattern/Behavioral pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 RestardCommand\par \pard\plain 
+{\tc\tcl2 \v RestardCommand}
+{\xe \v RestardCommand}
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EF\'E5\'F0\'E5\'E7\'E0\'EF\'F3\'F1\'EA\'E0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:RestardCommand:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_restard_command.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b RestardCommand} ({\b ComputerSystem} *system)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b execute} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b undo} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'EF\'E5\'F0\'E5\'E7\'E0\'EF\'F3\'F1\'EA\'E0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v RestardCommand\:RestardCommand}
+{\xe \v RestardCommand\:RestardCommand}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+RestardCommand::RestardCommand ({\b ComputerSystem} * system){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+system \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'F1\'E8\'F1\'F2\'E5\'EC\'F3 \par
+}}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v execute\:RestardCommand}
+{\xe \v RestardCommand\:execute}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void RestardCommand::execute (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v undo\:RestardCommand}
+{\xe \v RestardCommand\:undo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void RestardCommand::undo (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACD \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+behavioral-pattern/Behavioral pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 ShutdownCommand\par \pard\plain 
+{\tc\tcl2 \v ShutdownCommand}
+{\xe \v ShutdownCommand}
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'E2\'FB\'EA\'EB\'FE\'F7\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'EF\'FC\'FE\'F2\'E5\'F0\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:ShutdownCommand:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_shutdown_command.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ShutdownCommand} ({\b ComputerSystem} *system)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b execute} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b undo} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'EC\'E0\'ED\'E4\'FB \'E2\'FB\'EA\'EB\'FE\'F7\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'EF\'FC\'FE\'F2\'E5\'F0\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EA\'EE\'EC\'E0\'ED\'E4\'FB \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v ShutdownCommand\:ShutdownCommand}
+{\xe \v ShutdownCommand\:ShutdownCommand}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ShutdownCommand::ShutdownCommand ({\b ComputerSystem} * system){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EE\'EC\'E0\'ED\'E4\'FB }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+system \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'F1\'E8\'F1\'F2\'E5\'EC\'F3 \par
+}}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v execute\:ShutdownCommand}
+{\xe \v ShutdownCommand\:execute}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ShutdownCommand::execute (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'E2\'FB\'EF\'EE\'EB\'ED\'E5\'ED\'E8\'FF \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v undo\:ShutdownCommand}
+{\xe \v ShutdownCommand\:undo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ShutdownCommand::undo (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'EE\'F2\'EC\'E5\'ED\'FB \'EA\'EE\'EC\'E0\'ED\'E4\'FB. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Command} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACD \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+behavioral-pattern/Behavioral pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Sugar\par \pard\plain 
+{\tc\tcl2 \v Sugar}
+{\xe \v Sugar}
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'E0\'F5\'E0\'F0 (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Sugar:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_sugar.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Sugar} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDescription} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getCost} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CondimentDecorator} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C7\'E0\'F9\'E8\'F9\'E5\'ED\'ED\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Beverage} * {\b beverage}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'E0\'F5\'E0\'F0 (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Sugar\:Sugar}
+{\xe \v Sugar\:Sugar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Sugar::Sugar ({\b Beverage} * beverage){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i beverage} \cell }{\'ED\'E0\'EF\'E8\'F2\'EE\'EA \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FC \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:Sugar}
+{\xe \v Sugar\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Sugar::getCost (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:Sugar}
+{\xe \v Sugar\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Sugar::getDescription (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Syrup\par \pard\plain 
+{\tc\tcl2 \v Syrup}
+{\xe \v Syrup}
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'E8\'F0\'EE\'EF (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Syrup:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_syrup.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Syrup} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDescription} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getCost} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CondimentDecorator} ({\b Beverage} *beverage)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C7\'E0\'F9\'E8\'F9\'E5\'ED\'ED\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CondimentDecorator}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Beverage} * {\b beverage}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'E8\'F0\'EE\'EF (\'C4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0) \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E4\'E5\'EA\'EE\'F0\'E0\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Syrup\:Syrup}
+{\xe \v Syrup\:Syrup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Syrup::Syrup ({\b Beverage} * beverage){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i beverage} \cell }{\'ED\'E0\'EF\'E8\'F2\'EE\'EA \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FC \cell }
+{\row }
+}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:Syrup}
+{\xe \v Syrup\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Syrup::getCost (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'FE \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:Syrup}
+{\xe \v Syrup\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Syrup::getDescription (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'F0\'EE\'E4\'E8\'F2\'E5\'EB\'FF \'E4\'EE\'E1\'E0\'E2\'EB\'FF\'FF \'F1\'E2\'EE\'B8 \par
+}}}{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b CondimentDecorator} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Tea\par \pard\plain 
+{\tc\tcl2 \v Tea}
+{\xe \v Tea}
+{\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E0\'EF\'E8\'F2\'EE\'EA \'F7\'E0\'E9 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Tea:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_tea.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getDescription} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getCost} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CD\'E0\'EF\'E8\'F2\'EE\'EA \'F7\'E0\'E9 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getCost\:Tea}
+{\xe \v Tea\:getCost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Tea::getCost (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'F1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double \'D1\'F2\'EE\'E8\'EC\'EE\'F1\'F2\'FC \'ED\'E0\'EF\'E8\'F2\'EA\'E0 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Beverage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getDescription\:Tea}
+{\xe \v Tea\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Tea::getDescription (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \'ED\'E0\'EF\'E8\'F2\'EA\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'CE\'EF\'E8\'F1\'E0\'ED\'E8\'E5 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Beverage} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+structure-pattern/Structural Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Warrior\par \pard\plain 
+{\tc\tcl2 \v Warrior}
+{\xe \v Warrior}
+{\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'E2\'EE\'E8\'ED\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Warrior:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_warrior.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b getType} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attack} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'EA\'F0\'E8\'EF\'F2 \'E0\'F2\'E0\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getHealth} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'E0 \'E2\'EE\'E8\'ED\'E0 \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v attack\:Warrior}
+{\xe \v Warrior\:attack}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Warrior::attack (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'EA\'F0\'E8\'EF\'F2 \'E0\'F2\'E0\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. }}\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getHealth\:Warrior}
+{\xe \v Warrior\:getHealth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Warrior::getHealth (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+int \'CC\'E0\'EA\'F1\'E8\'EC\'E0\'EB\'FC\'ED\'EE\'E5 \'EA\'EE\'EB\'E8\'F7\'E5\'F1\'F2\'E2\'EE \'E6\'E8\'E7\'ED\'E5\'E9 \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v getType\:Warrior}
+{\xe \v Warrior\:getType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Warrior::getType (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'F3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+string \'D3\'ED\'E8\'EA\'E0\'EB\'FC\'ED\'FB\'E9 \'F2\'E8\'EF \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b Character} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 WarriorFactory\par \pard\plain 
+{\tc\tcl2 \v WarriorFactory}
+{\xe \v WarriorFactory}
+{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'E2\'EE\'E8\'ED\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:WarriorFactory:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_warrior_factory.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Character} * {\b createCharacter} () override\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'E2\'EE\'E8\'ED\'E0. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'E2\'EE\'E8\'ED\'E0. }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'EE\'F2 {\b CharacterFactory}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b spawnAndAttack} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'FF \'F2\'E5\'F1\'F2\'E8\'F0\'F3\'FE\'F9\'E0\'FF \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E0. \'C8\'EC\'E5\'E5\'F2 \'F0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FE \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'E2\'EE\'E8\'ED\'EE\'E2. \'CD\'E0\'F1\'EB\'E5\'E4\'F3\'E5\'F2 \'E0\'E1\'F1\'F2\'F0\'E0\'EA\'F2\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F4\'E0\'E1\'F0\'E8\'EA\'E8 \'EF\'E5\'F0\'F1\'EE\'ED\'E0\'E6\'E5. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v createCharacter\:WarriorFactory}
+{\xe \v WarriorFactory\:createCharacter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Character} * WarriorFactory::createCharacter (){\f2 [inline]}, {\f2 [override]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'E5\'E0\'EB\'E8\'E7\'E0\'F6\'E8\'FF \'F4\'F3\'ED\'EA\'F6\'E8\'E8 \'F1\'EE\'E7\'E4\'E0\'ED\'E8\'FF \'E2\'EE\'E8\'ED\'E0. \'D1\'EE\'E7\'E4\'E0\'B8\'F2 \'E2\'EE\'E8\'ED\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Character* \'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'E2\'EE\'E8\'ED\'E0. \par
+}}}{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b CharacterFactory} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+creations-pattern/Creations Pattern/main.cpp\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC\par 
+\pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_beverage" xml:lang="ru">
+<title>Класс Beverage</title>
+<indexterm><primary>Beverage</primary></indexterm>
+<para>
+
+<para>Интерфейс напитка </para>
+ 
+</para>
+<para>Граф наследования:Beverage:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_beverage.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>virtual string <link linkend="_class_beverage_1a23e305526d707afe1a006e441a71a8b8">getDescription</link> ()=0</para>
+
+<para>Получает описание напитка </para>
+</listitem>
+            <listitem><para>virtual double <link linkend="_class_beverage_1a65460ff419cb88cce7c465f719b0c1f4">getCost</link> ()=0</para>
+
+<para>Получает стоимость напитка </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Интерфейс напитка </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_beverage_1a65460ff419cb88cce7c465f719b0c1f4"/><section>
+    <title>getCost()</title>
+<indexterm><primary>getCost</primary><secondary>Beverage</secondary></indexterm>
+<indexterm><primary>Beverage</primary><secondary>getCost</secondary></indexterm>
+<para><computeroutput>virtual double Beverage::getCost ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает стоимость напитка </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>double Стоимость напитка </para>
+</formalpara>
+</para>
+<para>
+Замещается в <link linkend="_class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df">CondimentDecorator</link>, <link linkend="_class_espresso_1a4225caad3e77e9364d56243f68971e64">Espresso</link>, <link linkend="_class_golden_poop_1a130a2f96d713af40b8d032d4b155c8c6">GoldenPoop</link>, <link linkend="_class_milk_1a81e434be08b65ff9e5a445c393fde68d">Milk</link>, <link linkend="_class_sugar_1a6518625592942a5a36f2bc6d845ca48d">Sugar</link>, <link linkend="_class_syrup_1a25d5acf5e71a41da1a42bba6973103a1">Syrup</link> и <link linkend="_class_tea_1a388bd78a0050a799115194ebf9f8617a">Tea</link>.</para>
+</section>
+<anchor xml:id="_class_beverage_1a23e305526d707afe1a006e441a71a8b8"/><section>
+    <title>getDescription()</title>
+<indexterm><primary>getDescription</primary><secondary>Beverage</secondary></indexterm>
+<indexterm><primary>Beverage</primary><secondary>getDescription</secondary></indexterm>
+<para><computeroutput>virtual string Beverage::getDescription ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает описание напитка </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>string Описание </para>
+</formalpara>
+</para>
+<para>
+Замещается в <link linkend="_class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6">CondimentDecorator</link>, <link linkend="_class_espresso_1a03a8c6439c9c2db55b890cda1b58a6a6">Espresso</link>, <link linkend="_class_golden_poop_1a7bc9980feb96e85e6c760ebffc749305">GoldenPoop</link>, <link linkend="_class_milk_1a693769c2fd19713253939665d12fa5ab">Milk</link>, <link linkend="_class_sugar_1afe82094b43e6da7041983c35bfb7197b">Sugar</link>, <link linkend="_class_syrup_1ae59f9838cff7fa21d989a373c1634bfe">Syrup</link> и <link linkend="_class_tea_1a1f1f781e52894889ee60051beb89db88">Tea</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+structure-pattern/Structural Pattern/main.cpp</section>
+</section>

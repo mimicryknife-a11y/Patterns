@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.16.1" xml:lang="ru">
+  <compound refid="class_archer" kind="class"><name>Archer</name>
+    <member refid="class_archer_1a06b8cd5ef290796b05250eec34d677a1" kind="function"><name>getType</name></member>
+    <member refid="class_archer_1ad5a62a929801de20b6c53858b8a77256" kind="function"><name>attack</name></member>
+    <member refid="class_archer_1a89a53d966ff202960b8637717c0f42c8" kind="function"><name>getHealth</name></member>
+  </compound>
+  <compound refid="class_archer_factory" kind="class"><name>ArcherFactory</name>
+    <member refid="class_archer_factory_1ab6649aa2561984b9001ace4bcda3db64" kind="function"><name>createCharacter</name></member>
+  </compound>
+  <compound refid="class_beverage" kind="class"><name>Beverage</name>
+    <member refid="class_beverage_1a23e305526d707afe1a006e441a71a8b8" kind="function"><name>getDescription</name></member>
+    <member refid="class_beverage_1a65460ff419cb88cce7c465f719b0c1f4" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_character" kind="class"><name>Character</name>
+    <member refid="class_character_1a7871a88b3bdfc17d58d737fd6cf04064" kind="function"><name>getType</name></member>
+    <member refid="class_character_1ab5e6d725195ce52be0115630bef36a38" kind="function"><name>getHealth</name></member>
+    <member refid="class_character_1ae5f544841b326a10b86dee4196474b2e" kind="function"><name>attack</name></member>
+  </compound>
+  <compound refid="class_character_factory" kind="class"><name>CharacterFactory</name>
+    <member refid="class_character_factory_1a3e6c731ccaf371b16220933036207dba" kind="function"><name>createCharacter</name></member>
+    <member refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" kind="function"><name>spawnAndAttack</name></member>
+  </compound>
+  <compound refid="class_command" kind="class"><name>Command</name>
+    <member refid="class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7" kind="function"><name>execute</name></member>
+    <member refid="class_command_1ad5eccd34dc85abda2cd0c21d819c17dc" kind="function"><name>undo</name></member>
+  </compound>
+  <compound refid="class_computer_system" kind="class"><name>ComputerSystem</name>
+    <member refid="class_computer_system_1a6b5f96a17a69ad15b8df80ab96f000d9" kind="function"><name>openFile</name></member>
+    <member refid="class_computer_system_1a53b220c30feb7282f9acfd755bd6dffd" kind="function"><name>shutdown</name></member>
+    <member refid="class_computer_system_1a23cc81ddb3f1661bd9a1654c38639ff5" kind="function"><name>launchBrowser</name></member>
+  </compound>
+  <compound refid="class_condiment_decorator" kind="class"><name>CondimentDecorator</name>
+    <member refid="class_condiment_decorator_1a88e7aee32fb2f878046db515945bd672" kind="variable"><name>beverage</name></member>
+    <member refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" kind="function"><name>CondimentDecorator</name></member>
+    <member refid="class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6" kind="function"><name>getDescription</name></member>
+    <member refid="class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_espresso" kind="class"><name>Espresso</name>
+    <member refid="class_espresso_1a03a8c6439c9c2db55b890cda1b58a6a6" kind="function"><name>getDescription</name></member>
+    <member refid="class_espresso_1a4225caad3e77e9364d56243f68971e64" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_golden_poop" kind="class"><name>GoldenPoop</name>
+    <member refid="class_golden_poop_1afa2d9fda56b6c401ef096a03824b54e0" kind="function"><name>GoldenPoop</name></member>
+    <member refid="class_golden_poop_1a7bc9980feb96e85e6c760ebffc749305" kind="function"><name>getDescription</name></member>
+    <member refid="class_golden_poop_1a130a2f96d713af40b8d032d4b155c8c6" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_knight" kind="class"><name>Knight</name>
+    <member refid="class_knight_1abd9e9abbc5448c928112a4b94d7e7dce" kind="function"><name>getType</name></member>
+    <member refid="class_knight_1ade9dd3a7d4b27a59b59f8cb123ecc4f4" kind="function"><name>attack</name></member>
+    <member refid="class_knight_1af6c3500520fbedd3aca1bf67191a92b8" kind="function"><name>getHealth</name></member>
+  </compound>
+  <compound refid="class_knight_factory" kind="class"><name>KnightFactory</name>
+    <member refid="class_knight_factory_1a0ca5c86535309adcedd03762810aea78" kind="function"><name>createCharacter</name></member>
+  </compound>
+  <compound refid="class_launch_browser_command" kind="class"><name>LaunchBrowserCommand</name>
+    <member refid="class_launch_browser_command_1ac2968cb5daa25d4508c65e11797e1582" kind="variable"><name>system</name></member>
+    <member refid="class_launch_browser_command_1a34413ca742aeb01b2e65fdd70ab84e3a" kind="function"><name>LaunchBrowserCommand</name></member>
+    <member refid="class_launch_browser_command_1a7095647975f6e36fa51e8831020e6f60" kind="function"><name>execute</name></member>
+    <member refid="class_launch_browser_command_1a1f74fc3f40306db43bf9df7289388662" kind="function"><name>undo</name></member>
+  </compound>
+  <compound refid="class_mage" kind="class"><name>Mage</name>
+    <member refid="class_mage_1ae136b8777d93fff917e2da6eedcf58ea" kind="function"><name>getType</name></member>
+    <member refid="class_mage_1a5ac36b45df55997e4fa1f50ff571b7d1" kind="function"><name>attack</name></member>
+    <member refid="class_mage_1a5d3b882bf6e84e4f695a705e23645107" kind="function"><name>getHealth</name></member>
+  </compound>
+  <compound refid="class_mage_factory" kind="class"><name>MageFactory</name>
+    <member refid="class_mage_factory_1aa4e95840bd6665e14c3eda4c280faed6" kind="function"><name>createCharacter</name></member>
+  </compound>
+  <compound refid="class_milk" kind="class"><name>Milk</name>
+    <member refid="class_milk_1a50613147fa2dc42e220967095df504dd" kind="function"><name>Milk</name></member>
+    <member refid="class_milk_1a693769c2fd19713253939665d12fa5ab" kind="function"><name>getDescription</name></member>
+    <member refid="class_milk_1a81e434be08b65ff9e5a445c393fde68d" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_open_file_command" kind="class"><name>OpenFileCommand</name>
+    <member refid="class_open_file_command_1a6af041e59a35d3c7ee1187c9e2d38a4c" kind="variable"><name>system</name></member>
+    <member refid="class_open_file_command_1aeb3344539b601b90d1b00c79bb7d2c8a" kind="variable"><name>fileName</name></member>
+    <member refid="class_open_file_command_1a7c12d303c20d916aa697a207706d8148" kind="function"><name>OpenFileCommand</name></member>
+    <member refid="class_open_file_command_1ad4c19347016458e2e9ef1e837e4ad0fe" kind="function"><name>execute</name></member>
+    <member refid="class_open_file_command_1aeea4ae13a0c1748c00702f16c52f4e89" kind="function"><name>undo</name></member>
+  </compound>
+  <compound refid="class_remote_control" kind="class"><name>RemoteControl</name>
+    <member refid="class_remote_control_1a0c991f525d43c71586ea5e6b9f63eaab" kind="variable"><name>commands</name></member>
+    <member refid="class_remote_control_1ac40bf5f2f259c34f7223b2d28e8b08e9" kind="function"><name>addCommand</name></member>
+    <member refid="class_remote_control_1af50cd5c681a1bfe2f33a160f6b7c5e7a" kind="function"><name>pressButton</name></member>
+    <member refid="class_remote_control_1a23169e89ccd0051130e668c2f124d860" kind="function"><name>undoLast</name></member>
+  </compound>
+  <compound refid="class_restard_command" kind="class"><name>RestardCommand</name>
+    <member refid="class_restard_command_1a328c3055e90c5af64f6d24e047bdcf89" kind="variable"><name>system</name></member>
+    <member refid="class_restard_command_1a4a8f79ab2f5d2e59ad2853c744c6fdc2" kind="function"><name>RestardCommand</name></member>
+    <member refid="class_restard_command_1af55b9f9864f8fd77e5a399b94caded5a" kind="function"><name>execute</name></member>
+    <member refid="class_restard_command_1a72aa90042c7423469944772733ed7d35" kind="function"><name>undo</name></member>
+  </compound>
+  <compound refid="class_shutdown_command" kind="class"><name>ShutdownCommand</name>
+    <member refid="class_shutdown_command_1a4e9dbad96f52f5bb2ef356c89ffa1216" kind="variable"><name>system</name></member>
+    <member refid="class_shutdown_command_1ace3e2cb8fc412dd71df920281e9442c5" kind="function"><name>ShutdownCommand</name></member>
+    <member refid="class_shutdown_command_1a9fbcb462c911ed9a45e40d7617846395" kind="function"><name>execute</name></member>
+    <member refid="class_shutdown_command_1a1ab55b9c24bc00698d95e4ff0f695087" kind="function"><name>undo</name></member>
+  </compound>
+  <compound refid="class_sugar" kind="class"><name>Sugar</name>
+    <member refid="class_sugar_1abff38f40065b079e2de45d1dc8dfe5f1" kind="function"><name>Sugar</name></member>
+    <member refid="class_sugar_1afe82094b43e6da7041983c35bfb7197b" kind="function"><name>getDescription</name></member>
+    <member refid="class_sugar_1a6518625592942a5a36f2bc6d845ca48d" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_syrup" kind="class"><name>Syrup</name>
+    <member refid="class_syrup_1a4d3eab679a06bff1fce71eeb3ebad94f" kind="function"><name>Syrup</name></member>
+    <member refid="class_syrup_1ae59f9838cff7fa21d989a373c1634bfe" kind="function"><name>getDescription</name></member>
+    <member refid="class_syrup_1a25d5acf5e71a41da1a42bba6973103a1" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_tea" kind="class"><name>Tea</name>
+    <member refid="class_tea_1a1f1f781e52894889ee60051beb89db88" kind="function"><name>getDescription</name></member>
+    <member refid="class_tea_1a388bd78a0050a799115194ebf9f8617a" kind="function"><name>getCost</name></member>
+  </compound>
+  <compound refid="class_warrior" kind="class"><name>Warrior</name>
+    <member refid="class_warrior_1ac5b177bd2922074cb8fe592ff90d73e6" kind="function"><name>getType</name></member>
+    <member refid="class_warrior_1a0d8d9631bffe5aee5e9420acc544c190" kind="function"><name>attack</name></member>
+    <member refid="class_warrior_1aa1418d23db6dac64b33ea11f8ceaa801" kind="function"><name>getHealth</name></member>
+  </compound>
+  <compound refid="class_warrior_factory" kind="class"><name>WarriorFactory</name>
+    <member refid="class_warrior_factory_1a9df8c9e4fc56457d08ff5b6535913646" kind="function"><name>createCharacter</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="behavioral-pattern_2_behavioral_01pattern_2main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="behavioral-pattern_2_behavioral_01pattern_2main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="creations-pattern_2_creations_01_pattern_2main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="creations-pattern_2_creations_01_pattern_2main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="structure-pattern_2_structural_01_pattern_2main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="structure-pattern_2_structural_01_pattern_2main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md__r_e_a_d_m_e</name>
+  </compound>
+  <compound refid="dir_ce8276478abf7bcccef34eb96e98e3dc" kind="dir"><name>behavioral-pattern/Behavioral pattern</name>
+  </compound>
+  <compound refid="dir_6d9de6b215f0fcafbdfcd9db5eea8865" kind="dir"><name>behavioral-pattern</name>
+  </compound>
+  <compound refid="dir_c2d43cd6db9e4fc1cfec2df2e66cf121" kind="dir"><name>creations-pattern/Creations Pattern</name>
+  </compound>
+  <compound refid="dir_14e553e68d3d26dd801c83690a30342b" kind="dir"><name>creations-pattern</name>
+  </compound>
+  <compound refid="dir_81a4f73ba55e4511c650357626429557" kind="dir"><name>structure-pattern/Structural Pattern</name>
+  </compound>
+  <compound refid="dir_bfba0f8d21e3e8bff827bd289dcdb5dc" kind="dir"><name>structure-pattern</name>
+  </compound>
+</doxygenindex>

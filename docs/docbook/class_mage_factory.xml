@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_mage_factory" xml:lang="ru">
+<title>Класс MageFactory</title>
+<indexterm><primary>MageFactory</primary></indexterm>
+<para>
+
+<para>Реализация фабрики магов. Наследует абстрактный класс фабрики персонаже </para>
+ 
+</para>
+<para>Граф наследования:MageFactory:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_mage_factory.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_character">Character</link> * <link linkend="_class_mage_factory_1aa4e95840bd6665e14c3eda4c280faed6">createCharacter</link> () override</para>
+
+<para>Реализация функции создания мага. Создаёт мага. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Открытые члены унаследованные от <link linkend="_class_character_factory">CharacterFactory</link>        <itemizedlist>
+            <listitem><para>void <emphasis role="strong">spawnAndAttack</emphasis> ()</para>
+
+<para>Функция тестирующая персонажа. Имеет реализацию по умолчанию. </para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Подробное описание</title>
+
+<para>Реализация фабрики магов. Наследует абстрактный класс фабрики персонаже </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_mage_factory_1aa4e95840bd6665e14c3eda4c280faed6"/><section>
+    <title>createCharacter()</title>
+<indexterm><primary>createCharacter</primary><secondary>MageFactory</secondary></indexterm>
+<indexterm><primary>MageFactory</primary><secondary>createCharacter</secondary></indexterm>
+<para><computeroutput><link linkend="_class_character">Character</link> * MageFactory::createCharacter ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Реализация функции создания мага. Создаёт мага. </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>Character* Указатель на мага. </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_character_factory_1a3e6c731ccaf371b16220933036207dba">CharacterFactory</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+creations-pattern/Creations Pattern/main.cpp</section>
+</section>

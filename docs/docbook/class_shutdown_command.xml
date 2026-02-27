@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_shutdown_command" xml:lang="ru">
+<title>Класс ShutdownCommand</title>
+<indexterm><primary>ShutdownCommand</primary></indexterm>
+<para>
+
+<para>Команды выключения компьютера Наследует интерфейс команды </para>
+ 
+</para>
+<para>Граф наследования:ShutdownCommand:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_shutdown_command.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_shutdown_command_1ace3e2cb8fc412dd71df920281e9442c5">ShutdownCommand</link> (<link linkend="_class_computer_system">ComputerSystem</link> *system)</para>
+
+<para>Конструктор команды </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shutdown_command_1a9fbcb462c911ed9a45e40d7617846395">execute</link> () override</para>
+
+<para>Функция выполнения команды </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shutdown_command_1a1ab55b9c24bc00698d95e4ff0f695087">undo</link> () override</para>
+
+<para>Функция отмены команды </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Команды выключения компьютера Наследует интерфейс команды </para>
+</section>
+<section>
+<title>Конструктор(ы)</title>
+<anchor xml:id="_class_shutdown_command_1ace3e2cb8fc412dd71df920281e9442c5"/><section>
+    <title>ShutdownCommand()</title>
+<indexterm><primary>ShutdownCommand</primary><secondary>ShutdownCommand</secondary></indexterm>
+<indexterm><primary>ShutdownCommand</primary><secondary>ShutdownCommand</secondary></indexterm>
+<para><computeroutput>ShutdownCommand::ShutdownCommand (<link linkend="_class_computer_system">ComputerSystem</link> * system)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Конструктор команды </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>system Указатель на систему </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_shutdown_command_1a9fbcb462c911ed9a45e40d7617846395"/><section>
+    <title>execute()</title>
+<indexterm><primary>execute</primary><secondary>ShutdownCommand</secondary></indexterm>
+<indexterm><primary>ShutdownCommand</primary><secondary>execute</secondary></indexterm>
+<para><computeroutput>void ShutdownCommand::execute ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Функция выполнения команды </para>
+</para>
+<para>
+Замещает <link linkend="_class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7">Command</link>.</para>
+</section>
+<anchor xml:id="_class_shutdown_command_1a1ab55b9c24bc00698d95e4ff0f695087"/><section>
+    <title>undo()</title>
+<indexterm><primary>undo</primary><secondary>ShutdownCommand</secondary></indexterm>
+<indexterm><primary>ShutdownCommand</primary><secondary>undo</secondary></indexterm>
+<para><computeroutput>void ShutdownCommand::undo ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Функция отмены команды </para>
+</para>
+<para>
+Замещает <link linkend="_class_command_1ad5eccd34dc85abda2cd0c21d819c17dc">Command</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+behavioral-pattern/Behavioral pattern/main.cpp</section>
+</section>

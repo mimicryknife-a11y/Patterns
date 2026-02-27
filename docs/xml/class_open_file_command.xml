@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_open_file_command" kind="class" language="C++" prot="public">
+    <compoundname>OpenFileCommand</compoundname>
+    <basecompoundref refid="class_command" prot="public" virt="non-virtual">Command</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_open_file_command_1a6af041e59a35d3c7ee1187c9e2d38a4c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+        <definition>ComputerSystem* OpenFileCommand::system</definition>
+        <argsstring></argsstring>
+        <name>system</name>
+        <qualifiedname>OpenFileCommand::system</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="54" column="16" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_open_file_command_1aeb3344539b601b90d1b00c79bb7d2c8a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string OpenFileCommand::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <qualifiedname>OpenFileCommand::fileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="55" column="8" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_open_file_command_1a7c12d303c20d916aa697a207706d8148" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenFileCommand::OpenFileCommand</definition>
+        <argsstring>(ComputerSystem *system, const string &amp;fileName)</argsstring>
+        <name>OpenFileCommand</name>
+        <qualifiedname>OpenFileCommand::OpenFileCommand</qualifiedname>
+        <param>
+          <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор команды </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>system Указатель на систему </para>
+</simplesect>
+<simplesect kind="return"><para>string Название файла </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="63" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_open_file_command_1ad4c19347016458e2e9ef1e837e4ad0fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void OpenFileCommand::execute</definition>
+        <argsstring>() override</argsstring>
+        <name>execute</name>
+        <qualifiedname>OpenFileCommand::execute</qualifiedname>
+        <reimplements refid="class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7">execute</reimplements>
+        <briefdescription>
+<para>Функция выполнения команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="68" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_open_file_command_1aeea4ae13a0c1748c00702f16c52f4e89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void OpenFileCommand::undo</definition>
+        <argsstring>() override</argsstring>
+        <name>undo</name>
+        <qualifiedname>OpenFileCommand::undo</qualifiedname>
+        <reimplements refid="class_command_1ad5eccd34dc85abda2cd0c21d819c17dc">undo</reimplements>
+        <briefdescription>
+<para>Функция отмены команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="73" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="73" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Команды открытия файла Наследует интерфейс команды </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>OpenFileCommand</label>
+        <link refid="class_open_file_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>OpenFileCommand</label>
+        <link refid="class_open_file_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="52" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="52" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_open_file_command_1ad4c19347016458e2e9ef1e837e4ad0fe" prot="public" virt="virtual"><scope>OpenFileCommand</scope><name>execute</name></member>
+      <member refid="class_open_file_command_1aeb3344539b601b90d1b00c79bb7d2c8a" prot="private" virt="non-virtual"><scope>OpenFileCommand</scope><name>fileName</name></member>
+      <member refid="class_open_file_command_1a7c12d303c20d916aa697a207706d8148" prot="public" virt="non-virtual"><scope>OpenFileCommand</scope><name>OpenFileCommand</name></member>
+      <member refid="class_open_file_command_1a6af041e59a35d3c7ee1187c9e2d38a4c" prot="private" virt="non-virtual"><scope>OpenFileCommand</scope><name>system</name></member>
+      <member refid="class_open_file_command_1aeea4ae13a0c1748c00702f16c52f4e89" prot="public" virt="virtual"><scope>OpenFileCommand</scope><name>undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

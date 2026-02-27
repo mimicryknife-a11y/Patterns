@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_sugar" kind="class" language="C++" prot="public">
+    <compoundname>Sugar</compoundname>
+    <basecompoundref refid="class_condiment_decorator" prot="public" virt="non-virtual">CondimentDecorator</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sugar_1abff38f40065b079e2de45d1dc8dfe5f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sugar::Sugar</definition>
+        <argsstring>(Beverage *beverage)</argsstring>
+        <name>Sugar</name>
+        <qualifiedname>Sugar::Sugar</qualifiedname>
+        <param>
+          <type><ref refid="class_beverage" kindref="compound">Beverage</ref> *</type>
+          <declname>beverage</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beverage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>напиток родитель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="125" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="125" bodyend="125"/>
+        <references refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" compoundref="structure-pattern_2_structural_01_pattern_2main_8cpp" startline="75" endline="75">CondimentDecorator::CondimentDecorator</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sugar_1afe82094b43e6da7041983c35bfb7197b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string Sugar::getDescription</definition>
+        <argsstring>() override</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>Sugar::getDescription</qualifiedname>
+        <reimplements refid="class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6">getDescription</reimplements>
+        <briefdescription>
+<para>Получает описание родителя добавляя своё </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Возвращает описание родителя добавляя своё </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="131" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sugar_1a6518625592942a5a36f2bc6d845ca48d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double Sugar::getCost</definition>
+        <argsstring>() override</argsstring>
+        <name>getCost</name>
+        <qualifiedname>Sugar::getCost</qualifiedname>
+        <reimplements refid="class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df">getCost</reimplements>
+        <briefdescription>
+<para>Получает стоимость родителя добавляя свою </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double Возвращает стоимость родителя добавляя свою </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="137" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="137" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Сахар (Декоратор напитка) Наследует декоратор напитка </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="2">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Sugar</label>
+        <link refid="class_sugar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="2">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>beverage</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Sugar</label>
+        <link refid="class_sugar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="structure-pattern/Structural Pattern/main.cpp" line="119" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="119" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_condiment_decorator_1a88e7aee32fb2f878046db515945bd672" prot="protected" virt="non-virtual"><scope>Sugar</scope><name>beverage</name></member>
+      <member refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" prot="public" virt="non-virtual"><scope>Sugar</scope><name>CondimentDecorator</name></member>
+      <member refid="class_sugar_1a6518625592942a5a36f2bc6d845ca48d" prot="public" virt="virtual"><scope>Sugar</scope><name>getCost</name></member>
+      <member refid="class_sugar_1afe82094b43e6da7041983c35bfb7197b" prot="public" virt="virtual"><scope>Sugar</scope><name>getDescription</name></member>
+      <member refid="class_sugar_1abff38f40065b079e2de45d1dc8dfe5f1" prot="public" virt="non-virtual"><scope>Sugar</scope><name>Sugar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

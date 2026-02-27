@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_condiment_decorator" xml:lang="ru">
+<title>Класс CondimentDecorator</title>
+<indexterm><primary>CondimentDecorator</primary></indexterm>
+<para>
+
+<para>Декоратор напитка Наследует интерфейс напитка </para>
+ 
+</para>
+<para>Граф наследования:CondimentDecorator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_condiment_decorator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf">CondimentDecorator</link> (<link linkend="_class_beverage">Beverage</link> *beverage)</para>
+
+<para>Конструктор напитка </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6">getDescription</link> () override</para>
+
+<para>Получает описание родителя </para>
+</listitem>
+            <listitem><para>double <link linkend="_class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df">getCost</link> () override</para>
+
+<para>Получает стоимость родителя </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Защищенные данные    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_condiment_decorator_1a88e7aee32fb2f878046db515945bd672"/><link linkend="_class_beverage">Beverage</link> * <emphasis role="strong">beverage</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Декоратор напитка Наследует интерфейс напитка </para>
+</section>
+<section>
+<title>Конструктор(ы)</title>
+<anchor xml:id="_class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf"/><section>
+    <title>CondimentDecorator()</title>
+<indexterm><primary>CondimentDecorator</primary><secondary>CondimentDecorator</secondary></indexterm>
+<indexterm><primary>CondimentDecorator</primary><secondary>CondimentDecorator</secondary></indexterm>
+<para><computeroutput>CondimentDecorator::CondimentDecorator (<link linkend="_class_beverage">Beverage</link> * beverage)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Конструктор напитка </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>beverage</entry><entry>
+<para>напиток родитель </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df"/><section>
+    <title>getCost()</title>
+<indexterm><primary>getCost</primary><secondary>CondimentDecorator</secondary></indexterm>
+<indexterm><primary>CondimentDecorator</primary><secondary>getCost</secondary></indexterm>
+<para><computeroutput>double CondimentDecorator::getCost ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает стоимость родителя </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>double Возвращает стоимость родителя </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_beverage_1a65460ff419cb88cce7c465f719b0c1f4">Beverage</link>.</para>
+<para>
+Переопределяется в <link linkend="_class_golden_poop_1a130a2f96d713af40b8d032d4b155c8c6">GoldenPoop</link>, <link linkend="_class_milk_1a81e434be08b65ff9e5a445c393fde68d">Milk</link>, <link linkend="_class_sugar_1a6518625592942a5a36f2bc6d845ca48d">Sugar</link> и <link linkend="_class_syrup_1a25d5acf5e71a41da1a42bba6973103a1">Syrup</link>.</para>
+</section>
+<anchor xml:id="_class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6"/><section>
+    <title>getDescription()</title>
+<indexterm><primary>getDescription</primary><secondary>CondimentDecorator</secondary></indexterm>
+<indexterm><primary>CondimentDecorator</primary><secondary>getDescription</secondary></indexterm>
+<para><computeroutput>string CondimentDecorator::getDescription ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает описание родителя </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>string Возвращает описание родителя </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_beverage_1a23e305526d707afe1a006e441a71a8b8">Beverage</link>.</para>
+<para>
+Переопределяется в <link linkend="_class_golden_poop_1a7bc9980feb96e85e6c760ebffc749305">GoldenPoop</link>, <link linkend="_class_milk_1a693769c2fd19713253939665d12fa5ab">Milk</link>, <link linkend="_class_sugar_1afe82094b43e6da7041983c35bfb7197b">Sugar</link> и <link linkend="_class_syrup_1ae59f9838cff7fa21d989a373c1634bfe">Syrup</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+structure-pattern/Structural Pattern/main.cpp</section>
+</section>

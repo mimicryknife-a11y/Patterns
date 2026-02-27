@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_tea" kind="class" language="C++" prot="public">
+    <compoundname>Tea</compoundname>
+    <basecompoundref refid="class_beverage" prot="public" virt="non-virtual">Beverage</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tea_1a1f1f781e52894889ee60051beb89db88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string Tea::getDescription</definition>
+        <argsstring>() override</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>Tea::getDescription</qualifiedname>
+        <reimplements refid="class_beverage_1a23e305526d707afe1a006e441a71a8b8">getDescription</reimplements>
+        <briefdescription>
+<para>Получает описание напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Описание </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="53" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tea_1a388bd78a0050a799115194ebf9f8617a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double Tea::getCost</definition>
+        <argsstring>() override</argsstring>
+        <name>getCost</name>
+        <qualifiedname>Tea::getCost</qualifiedname>
+        <reimplements refid="class_beverage_1a65460ff419cb88cce7c465f719b0c1f4">getCost</reimplements>
+        <briefdescription>
+<para>Получает стоимость напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double Стоимость напитка </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="59" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Напиток чай Наследует интерфейс напитка </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="1">
+        <label>Tea</label>
+        <link refid="class_tea"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="1">
+        <label>Tea</label>
+        <link refid="class_tea"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="structure-pattern/Structural Pattern/main.cpp" line="47" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="47" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_tea_1a388bd78a0050a799115194ebf9f8617a" prot="public" virt="virtual"><scope>Tea</scope><name>getCost</name></member>
+      <member refid="class_tea_1a1f1f781e52894889ee60051beb89db88" prot="public" virt="virtual"><scope>Tea</scope><name>getDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

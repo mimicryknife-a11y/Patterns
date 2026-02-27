@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_golden_poop" kind="class" language="C++" prot="public">
+    <compoundname>GoldenPoop</compoundname>
+    <basecompoundref refid="class_condiment_decorator" prot="public" virt="non-virtual">CondimentDecorator</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_golden_poop_1afa2d9fda56b6c401ef096a03824b54e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoldenPoop::GoldenPoop</definition>
+        <argsstring>(Beverage *beverage)</argsstring>
+        <name>GoldenPoop</name>
+        <qualifiedname>GoldenPoop::GoldenPoop</qualifiedname>
+        <param>
+          <type><ref refid="class_beverage" kindref="compound">Beverage</ref> *</type>
+          <declname>beverage</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beverage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>напиток родитель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="175" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="175" bodyend="175"/>
+        <references refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" compoundref="structure-pattern_2_structural_01_pattern_2main_8cpp" startline="75" endline="75">CondimentDecorator::CondimentDecorator</references>
+      </memberdef>
+      <memberdef kind="function" id="class_golden_poop_1a7bc9980feb96e85e6c760ebffc749305" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string GoldenPoop::getDescription</definition>
+        <argsstring>() override</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>GoldenPoop::getDescription</qualifiedname>
+        <reimplements refid="class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6">getDescription</reimplements>
+        <briefdescription>
+<para>Получает описание родителя добавляя своё </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Возвращает описание родителя добавляя своё </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="181" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_golden_poop_1a130a2f96d713af40b8d032d4b155c8c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double GoldenPoop::getCost</definition>
+        <argsstring>() override</argsstring>
+        <name>getCost</name>
+        <qualifiedname>GoldenPoop::getCost</qualifiedname>
+        <reimplements refid="class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df">getCost</reimplements>
+        <briefdescription>
+<para>Получает стоимость родителя добавляя свою </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double Возвращает стоимость родителя добавляя свою </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="187" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="187" bodyend="187"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Золотая какашка (Декоратор напитка) Наследует декоратор напитка </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="2">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GoldenPoop</label>
+        <link refid="class_golden_poop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="2">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>beverage</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GoldenPoop</label>
+        <link refid="class_golden_poop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="structure-pattern/Structural Pattern/main.cpp" line="169" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="169" bodyend="188"/>
+    <listofallmembers>
+      <member refid="class_condiment_decorator_1a88e7aee32fb2f878046db515945bd672" prot="protected" virt="non-virtual"><scope>GoldenPoop</scope><name>beverage</name></member>
+      <member refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" prot="public" virt="non-virtual"><scope>GoldenPoop</scope><name>CondimentDecorator</name></member>
+      <member refid="class_golden_poop_1a130a2f96d713af40b8d032d4b155c8c6" prot="public" virt="virtual"><scope>GoldenPoop</scope><name>getCost</name></member>
+      <member refid="class_golden_poop_1a7bc9980feb96e85e6c760ebffc749305" prot="public" virt="virtual"><scope>GoldenPoop</scope><name>getDescription</name></member>
+      <member refid="class_golden_poop_1afa2d9fda56b6c401ef096a03824b54e0" prot="public" virt="non-virtual"><scope>GoldenPoop</scope><name>GoldenPoop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

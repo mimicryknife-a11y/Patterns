@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_warrior" xml:lang="ru">
+<title>Класс Warrior</title>
+<indexterm><primary>Warrior</primary></indexterm>
+<para>
+
+<para>Реализация класса воина Наследует интерфейс персонажа </para>
+ 
+</para>
+<para>Граф наследования:Warrior:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_warrior.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_warrior_1ac5b177bd2922074cb8fe592ff90d73e6">getType</link> () override</para>
+
+<para>Возвращает уникальный тип персонажа </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_warrior_1a0d8d9631bffe5aee5e9420acc544c190">attack</link> () override</para>
+
+<para>Скрипт атаки персонажа </para>
+</listitem>
+            <listitem><para>int <link linkend="_class_warrior_1aa1418d23db6dac64b33ea11f8ceaa801">getHealth</link> () override</para>
+
+<para>Возвращает максимальное количество жизней персонажа </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Реализация класса воина Наследует интерфейс персонажа </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_warrior_1a0d8d9631bffe5aee5e9420acc544c190"/><section>
+    <title>attack()</title>
+<indexterm><primary>attack</primary><secondary>Warrior</secondary></indexterm>
+<indexterm><primary>Warrior</primary><secondary>attack</secondary></indexterm>
+<para><computeroutput>void Warrior::attack ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Скрипт атаки персонажа </para>
+</para>
+<para>
+Замещает <link linkend="_class_character">Character</link>.</para>
+</section>
+<anchor xml:id="_class_warrior_1aa1418d23db6dac64b33ea11f8ceaa801"/><section>
+    <title>getHealth()</title>
+<indexterm><primary>getHealth</primary><secondary>Warrior</secondary></indexterm>
+<indexterm><primary>Warrior</primary><secondary>getHealth</secondary></indexterm>
+<para><computeroutput>int Warrior::getHealth ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Возвращает максимальное количество жизней персонажа </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>int Максимальное количество жизней </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_character_1ab5e6d725195ce52be0115630bef36a38">Character</link>.</para>
+</section>
+<anchor xml:id="_class_warrior_1ac5b177bd2922074cb8fe592ff90d73e6"/><section>
+    <title>getType()</title>
+<indexterm><primary>getType</primary><secondary>Warrior</secondary></indexterm>
+<indexterm><primary>Warrior</primary><secondary>getType</secondary></indexterm>
+<para><computeroutput>string Warrior::getType ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Возвращает уникальный тип персонажа </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>string Уникальный тип </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_character_1a7871a88b3bdfc17d58d737fd6cf04064">Character</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+creations-pattern/Creations Pattern/main.cpp</section>
+</section>

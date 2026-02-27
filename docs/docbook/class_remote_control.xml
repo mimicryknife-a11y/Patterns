@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_remote_control" xml:lang="ru">
+<title>Класс RemoteControl</title>
+<indexterm><primary>RemoteControl</primary></indexterm>
+<para>
+
+<para>Класс управления командами </para>
+ 
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_remote_control_1ac40bf5f2f259c34f7223b2d28e8b08e9">addCommand</link> (<link linkend="_class_command">Command</link> *cmd)</para>
+
+<para>Добавляет команду в очередь </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_remote_control_1af50cd5c681a1bfe2f33a160f6b7c5e7a"/>void <emphasis role="strong">pressButton</emphasis> ()</para>
+
+<para>Запускает все команды </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_remote_control_1a23169e89ccd0051130e668c2f124d860"/>void <emphasis role="strong">undoLast</emphasis> ()</para>
+
+<para>Отменяет последнюю команду и удаляет её из очереди </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Класс управления командами </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_remote_control_1ac40bf5f2f259c34f7223b2d28e8b08e9"/><section>
+    <title>addCommand()</title>
+<indexterm><primary>addCommand</primary><secondary>RemoteControl</secondary></indexterm>
+<indexterm><primary>RemoteControl</primary><secondary>addCommand</secondary></indexterm>
+<para><computeroutput>void RemoteControl::addCommand (<link linkend="_class_command">Command</link> * cmd)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Добавляет команду в очередь </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>cmd</entry><entry>
+<para>Команда </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+behavioral-pattern/Behavioral pattern/main.cpp</section>
+</section>

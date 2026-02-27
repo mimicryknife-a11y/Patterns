@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_knight" xml:lang="ru">
+<title>Класс Knight</title>
+<indexterm><primary>Knight</primary></indexterm>
+<para>
+
+<para>Реализация класса рыцаря Наследует интерфейс персонажа </para>
+ 
+</para>
+<para>Граф наследования:Knight:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_knight.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_knight_1abd9e9abbc5448c928112a4b94d7e7dce">getType</link> () override</para>
+
+<para>Возвращает уникальный тип персонажа </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_knight_1ade9dd3a7d4b27a59b59f8cb123ecc4f4">attack</link> () override</para>
+
+<para>Скрипт атаки персонажа </para>
+</listitem>
+            <listitem><para>int <link linkend="_class_knight_1af6c3500520fbedd3aca1bf67191a92b8">getHealth</link> () override</para>
+
+<para>Возвращает максимальное количество жизней персонажа </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Реализация класса рыцаря Наследует интерфейс персонажа </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_knight_1ade9dd3a7d4b27a59b59f8cb123ecc4f4"/><section>
+    <title>attack()</title>
+<indexterm><primary>attack</primary><secondary>Knight</secondary></indexterm>
+<indexterm><primary>Knight</primary><secondary>attack</secondary></indexterm>
+<para><computeroutput>void Knight::attack ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Скрипт атаки персонажа </para>
+</para>
+<para>
+Замещает <link linkend="_class_character">Character</link>.</para>
+</section>
+<anchor xml:id="_class_knight_1af6c3500520fbedd3aca1bf67191a92b8"/><section>
+    <title>getHealth()</title>
+<indexterm><primary>getHealth</primary><secondary>Knight</secondary></indexterm>
+<indexterm><primary>Knight</primary><secondary>getHealth</secondary></indexterm>
+<para><computeroutput>int Knight::getHealth ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Возвращает максимальное количество жизней персонажа </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>int Максимальное количество жизней </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_character_1ab5e6d725195ce52be0115630bef36a38">Character</link>.</para>
+</section>
+<anchor xml:id="_class_knight_1abd9e9abbc5448c928112a4b94d7e7dce"/><section>
+    <title>getType()</title>
+<indexterm><primary>getType</primary><secondary>Knight</secondary></indexterm>
+<indexterm><primary>Knight</primary><secondary>getType</secondary></indexterm>
+<para><computeroutput>string Knight::getType ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Возвращает уникальный тип персонажа </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>string Уникальный тип </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_character_1a7871a88b3bdfc17d58d737fd6cf04064">Character</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+creations-pattern/Creations Pattern/main.cpp</section>
+</section>

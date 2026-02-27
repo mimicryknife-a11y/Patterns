@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_warrior" kind="class" language="C++" prot="public">
+    <compoundname>Warrior</compoundname>
+    <basecompoundref refid="class_character" prot="public" virt="non-virtual">Character</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_warrior_1ac5b177bd2922074cb8fe592ff90d73e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string Warrior::getType</definition>
+        <argsstring>() override</argsstring>
+        <name>getType</name>
+        <qualifiedname>Warrior::getType</qualifiedname>
+        <reimplements refid="class_character_1a7871a88b3bdfc17d58d737fd6cf04064">getType</reimplements>
+        <briefdescription>
+<para>Возвращает уникальный тип персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Уникальный тип </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="60" column="8" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_warrior_1a0d8d9631bffe5aee5e9420acc544c190" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Warrior::attack</definition>
+        <argsstring>() override</argsstring>
+        <name>attack</name>
+        <qualifiedname>Warrior::attack</qualifiedname>
+        <reimplements refid="class_character_1ae5f544841b326a10b86dee4196474b2e">attack</reimplements>
+        <briefdescription>
+<para>Скрипт атаки персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="65" column="6" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_warrior_1aa1418d23db6dac64b33ea11f8ceaa801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int Warrior::getHealth</definition>
+        <argsstring>() override</argsstring>
+        <name>getHealth</name>
+        <qualifiedname>Warrior::getHealth</qualifiedname>
+        <reimplements refid="class_character_1ab5e6d725195ce52be0115630bef36a38">getHealth</reimplements>
+        <briefdescription>
+<para>Возвращает максимальное количество жизней персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int Максимальное количество жизней </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="72" column="5" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="72" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Реализация класса воина Наследует интерфейс персонажа </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Character</label>
+        <link refid="class_character"/>
+      </node>
+      <node id="1">
+        <label>Warrior</label>
+        <link refid="class_warrior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Character</label>
+        <link refid="class_character"/>
+      </node>
+      <node id="1">
+        <label>Warrior</label>
+        <link refid="class_warrior"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="creations-pattern/Creations Pattern/main.cpp" line="54" column="1" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="54" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_warrior_1a0d8d9631bffe5aee5e9420acc544c190" prot="public" virt="virtual"><scope>Warrior</scope><name>attack</name></member>
+      <member refid="class_warrior_1aa1418d23db6dac64b33ea11f8ceaa801" prot="public" virt="virtual"><scope>Warrior</scope><name>getHealth</name></member>
+      <member refid="class_warrior_1ac5b177bd2922074cb8fe592ff90d73e6" prot="public" virt="virtual"><scope>Warrior</scope><name>getType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_character" xml:lang="ru">
+<title>Класс Character</title>
+<indexterm><primary>Character</primary></indexterm>
+<para>
+
+<para>Интерфейс персонажа </para>
+ 
+</para>
+<para>Граф наследования:Character:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>virtual string <link linkend="_class_character_1a7871a88b3bdfc17d58d737fd6cf04064">getType</link> ()=0</para>
+
+<para>Возвращает уникальный тип персонажа </para>
+</listitem>
+            <listitem><para>virtual int <link linkend="_class_character_1ab5e6d725195ce52be0115630bef36a38">getHealth</link> ()=0</para>
+
+<para>Возвращает максимальное количество жизней персонажа </para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_character_1ae5f544841b326a10b86dee4196474b2e">attack</link> ()=0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Интерфейс персонажа </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_character_1ae5f544841b326a10b86dee4196474b2e"/><section>
+    <title>attack()</title>
+<indexterm><primary>attack</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>attack</secondary></indexterm>
+<para><computeroutput>virtual void Character::attack ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Замещается в <link linkend="_class_archer_1ad5a62a929801de20b6c53858b8a77256">Archer</link>, <link linkend="_class_knight_1ade9dd3a7d4b27a59b59f8cb123ecc4f4">Knight</link> и <link linkend="_class_warrior_1a0d8d9631bffe5aee5e9420acc544c190">Warrior</link>.</para>
+</section>
+<anchor xml:id="_class_character_1ab5e6d725195ce52be0115630bef36a38"/><section>
+    <title>getHealth()</title>
+<indexterm><primary>getHealth</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>getHealth</secondary></indexterm>
+<para><computeroutput>virtual int Character::getHealth ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Возвращает максимальное количество жизней персонажа </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>int Максимальное количество жизней </para>
+</formalpara>
+</para>
+<para>
+Замещается в <link linkend="_class_archer_1a89a53d966ff202960b8637717c0f42c8">Archer</link>, <link linkend="_class_knight_1af6c3500520fbedd3aca1bf67191a92b8">Knight</link>, <link linkend="_class_mage_1a5d3b882bf6e84e4f695a705e23645107">Mage</link> и <link linkend="_class_warrior_1aa1418d23db6dac64b33ea11f8ceaa801">Warrior</link>.</para>
+</section>
+<anchor xml:id="_class_character_1a7871a88b3bdfc17d58d737fd6cf04064"/><section>
+    <title>getType()</title>
+<indexterm><primary>getType</primary><secondary>Character</secondary></indexterm>
+<indexterm><primary>Character</primary><secondary>getType</secondary></indexterm>
+<para><computeroutput>virtual string Character::getType ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Возвращает уникальный тип персонажа </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>string Уникальный тип </para>
+</formalpara>
+</para>
+<para>
+Замещается в <link linkend="_class_archer_1a06b8cd5ef290796b05250eec34d677a1">Archer</link>, <link linkend="_class_knight_1abd9e9abbc5448c928112a4b94d7e7dce">Knight</link>, <link linkend="_class_mage_1ae136b8777d93fff917e2da6eedcf58ea">Mage</link> и <link linkend="_class_warrior_1ac5b177bd2922074cb8fe592ff90d73e6">Warrior</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+creations-pattern/Creations Pattern/main.cpp</section>
+</section>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_milk" kind="class" language="C++" prot="public">
+    <compoundname>Milk</compoundname>
+    <basecompoundref refid="class_condiment_decorator" prot="public" virt="non-virtual">CondimentDecorator</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_milk_1a50613147fa2dc42e220967095df504dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Milk::Milk</definition>
+        <argsstring>(Beverage *beverage)</argsstring>
+        <name>Milk</name>
+        <qualifiedname>Milk::Milk</qualifiedname>
+        <param>
+          <type><ref refid="class_beverage" kindref="compound">Beverage</ref> *</type>
+          <declname>beverage</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beverage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>напиток родитель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="100" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="100" bodyend="100"/>
+        <references refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" compoundref="structure-pattern_2_structural_01_pattern_2main_8cpp" startline="75" endline="75">CondimentDecorator::CondimentDecorator</references>
+      </memberdef>
+      <memberdef kind="function" id="class_milk_1a693769c2fd19713253939665d12fa5ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string Milk::getDescription</definition>
+        <argsstring>() override</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>Milk::getDescription</qualifiedname>
+        <reimplements refid="class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6">getDescription</reimplements>
+        <briefdescription>
+<para>Получает описание родителя добавляя своё </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Возвращает описание родителя добавляя своё </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="106" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_milk_1a81e434be08b65ff9e5a445c393fde68d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double Milk::getCost</definition>
+        <argsstring>() override</argsstring>
+        <name>getCost</name>
+        <qualifiedname>Milk::getCost</qualifiedname>
+        <reimplements refid="class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df">getCost</reimplements>
+        <briefdescription>
+<para>Получает стоимость родителя добавляя свою </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double Возвращает стоимость родителя добавляя свою </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="112" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="112" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Молоко (Декоратор напитка) Наследует декоратор напитка </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="2">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Milk</label>
+        <link refid="class_milk"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="2">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>beverage</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Milk</label>
+        <link refid="class_milk"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="structure-pattern/Structural Pattern/main.cpp" line="94" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="94" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_condiment_decorator_1a88e7aee32fb2f878046db515945bd672" prot="protected" virt="non-virtual"><scope>Milk</scope><name>beverage</name></member>
+      <member refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" prot="public" virt="non-virtual"><scope>Milk</scope><name>CondimentDecorator</name></member>
+      <member refid="class_milk_1a81e434be08b65ff9e5a445c393fde68d" prot="public" virt="virtual"><scope>Milk</scope><name>getCost</name></member>
+      <member refid="class_milk_1a693769c2fd19713253939665d12fa5ab" prot="public" virt="virtual"><scope>Milk</scope><name>getDescription</name></member>
+      <member refid="class_milk_1a50613147fa2dc42e220967095df504dd" prot="public" virt="non-virtual"><scope>Milk</scope><name>Milk</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

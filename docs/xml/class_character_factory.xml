@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_character_factory" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>CharacterFactory</compoundname>
+    <derivedcompoundref refid="class_archer_factory" prot="public" virt="non-virtual">ArcherFactory</derivedcompoundref>
+    <derivedcompoundref refid="class_knight_factory" prot="public" virt="non-virtual">KnightFactory</derivedcompoundref>
+    <derivedcompoundref refid="class_mage_factory" prot="public" virt="non-virtual">MageFactory</derivedcompoundref>
+    <derivedcompoundref refid="class_warrior_factory" prot="public" virt="non-virtual">WarriorFactory</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_character_factory_1a3e6c731ccaf371b16220933036207dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="class_character" kindref="compound">Character</ref> *</type>
+        <definition>virtual Character * CharacterFactory::createCharacter</definition>
+        <argsstring>()=0</argsstring>
+        <name>createCharacter</name>
+        <qualifiedname>CharacterFactory::createCharacter</qualifiedname>
+        <reimplementedby refid="class_archer_factory_1ab6649aa2561984b9001ace4bcda3db64">createCharacter</reimplementedby>
+        <reimplementedby refid="class_knight_factory_1a0ca5c86535309adcedd03762810aea78">createCharacter</reimplementedby>
+        <reimplementedby refid="class_mage_factory_1aa4e95840bd6665e14c3eda4c280faed6">createCharacter</reimplementedby>
+        <reimplementedby refid="class_warrior_factory_1a9df8c9e4fc56457d08ff5b6535913646">createCharacter</reimplementedby>
+        <briefdescription>
+<para>Не реализованная функция создания персонажа. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Character* Указатель на персонажа </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="136" column="19"/>
+        <referencedby refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" compoundref="creations-pattern_2_creations_01_pattern_2main_8cpp" startline="142" endline="147">spawnAndAttack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterFactory::spawnAndAttack</definition>
+        <argsstring>()</argsstring>
+        <name>spawnAndAttack</name>
+        <qualifiedname>CharacterFactory::spawnAndAttack</qualifiedname>
+        <briefdescription>
+<para>Функция тестирующая персонажа. Имеет реализацию по умолчанию. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="142" column="6" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="142" bodyend="147"/>
+        <references refid="class_character_factory_1a3e6c731ccaf371b16220933036207dba">createCharacter</references>
+        <references refid="class_character_1ab5e6d725195ce52be0115630bef36a38">Character::getHealth</references>
+        <references refid="class_character_1a7871a88b3bdfc17d58d737fd6cf04064">Character::getType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Абстрактный класс фабрики персонажей </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ArcherFactory</label>
+        <link refid="class_archer_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CharacterFactory</label>
+        <link refid="class_character_factory"/>
+      </node>
+      <node id="3">
+        <label>KnightFactory</label>
+        <link refid="class_knight_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MageFactory</label>
+        <link refid="class_mage_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>WarriorFactory</label>
+        <link refid="class_warrior_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="creations-pattern/Creations Pattern/main.cpp" line="130" column="1" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="130" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_character_factory_1a3e6c731ccaf371b16220933036207dba" prot="public" virt="pure-virtual"><scope>CharacterFactory</scope><name>createCharacter</name></member>
+      <member refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" prot="public" virt="non-virtual"><scope>CharacterFactory</scope><name>spawnAndAttack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

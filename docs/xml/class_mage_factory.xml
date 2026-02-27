@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_mage_factory" kind="class" language="C++" prot="public">
+    <compoundname>MageFactory</compoundname>
+    <basecompoundref refid="class_character_factory" prot="public" virt="non-virtual">CharacterFactory</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mage_factory_1aa4e95840bd6665e14c3eda4c280faed6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_character" kindref="compound">Character</ref> *</type>
+        <definition>Character * MageFactory::createCharacter</definition>
+        <argsstring>() override</argsstring>
+        <name>createCharacter</name>
+        <qualifiedname>MageFactory::createCharacter</qualifiedname>
+        <reimplements refid="class_character_factory_1a3e6c731ccaf371b16220933036207dba">createCharacter</reimplements>
+        <briefdescription>
+<para>Реализация функции создания мага. Создаёт мага. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Character* Указатель на мага. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="160" column="11" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="160" bodyend="160"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Реализация фабрики магов. Наследует абстрактный класс фабрики персонаже </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CharacterFactory</label>
+        <link refid="class_character_factory"/>
+      </node>
+      <node id="1">
+        <label>MageFactory</label>
+        <link refid="class_mage_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CharacterFactory</label>
+        <link refid="class_character_factory"/>
+      </node>
+      <node id="1">
+        <label>MageFactory</label>
+        <link refid="class_mage_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="creations-pattern/Creations Pattern/main.cpp" line="154" column="1" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="154" bodyend="161"/>
+    <listofallmembers>
+      <member refid="class_mage_factory_1aa4e95840bd6665e14c3eda4c280faed6" prot="public" virt="virtual"><scope>MageFactory</scope><name>createCharacter</name></member>
+      <member refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" prot="public" virt="non-virtual"><scope>MageFactory</scope><name>spawnAndAttack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

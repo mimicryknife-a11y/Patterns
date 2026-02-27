@@ -1,0 +1,79 @@
+\doxysection{Класс Character}
+\hypertarget{class_character}{}\label{class_character}\index{Character@{Character}}
+
+
+Интерфейс персонажа  
+
+
+Граф наследования:\+Character:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_character}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual string \doxymbox{\hyperlink{class_character_a7871a88b3bdfc17d58d737fd6cf04064}{get\+Type}} ()=0
+\begin{DoxyCompactList}\small\item\em Возвращает уникальный тип персонажа \end{DoxyCompactList}\item 
+virtual int \doxymbox{\hyperlink{class_character_ab5e6d725195ce52be0115630bef36a38}{get\+Health}} ()=0
+\begin{DoxyCompactList}\small\item\em Возвращает максимальное количество жизней персонажа \end{DoxyCompactList}\item 
+virtual void \doxymbox{\hyperlink{class_character_ae5f544841b326a10b86dee4196474b2e}{attack}} ()=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Интерфейс персонажа 
+
+\label{doc-func-members}
+\Hypertarget{class_character_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_character_ae5f544841b326a10b86dee4196474b2e}\index{Character@{Character}!attack@{attack}}
+\index{attack@{attack}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{attack()}{attack()}}
+{\footnotesize\ttfamily \label{class_character_ae5f544841b326a10b86dee4196474b2e} 
+virtual void Character::\+attack (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_ad5a62a929801de20b6c53858b8a77256}{Archer}}, \doxymbox{\hyperlink{class_knight_ade9dd3a7d4b27a59b59f8cb123ecc4f4}{Knight}} и \doxymbox{\hyperlink{class_warrior_a0d8d9631bffe5aee5e9420acc544c190}{Warrior}}.
+
+\Hypertarget{class_character_ab5e6d725195ce52be0115630bef36a38}\index{Character@{Character}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily \label{class_character_ab5e6d725195ce52be0115630bef36a38} 
+virtual int Character::\+get\+Health (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Возвращает максимальное количество жизней персонажа 
+
+\begin{DoxyReturn}{Возвращает}
+int Максимальное количество жизней 
+\end{DoxyReturn}
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_a89a53d966ff202960b8637717c0f42c8}{Archer}}, \doxymbox{\hyperlink{class_knight_af6c3500520fbedd3aca1bf67191a92b8}{Knight}}, \doxymbox{\hyperlink{class_mage_a5d3b882bf6e84e4f695a705e23645107}{Mage}} и \doxymbox{\hyperlink{class_warrior_aa1418d23db6dac64b33ea11f8ceaa801}{Warrior}}.
+
+\Hypertarget{class_character_a7871a88b3bdfc17d58d737fd6cf04064}\index{Character@{Character}!getType@{getType}}
+\index{getType@{getType}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily \label{class_character_a7871a88b3bdfc17d58d737fd6cf04064} 
+virtual string Character::\+get\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Возвращает уникальный тип персонажа 
+
+\begin{DoxyReturn}{Возвращает}
+string Уникальный тип 
+\end{DoxyReturn}
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_a06b8cd5ef290796b05250eec34d677a1}{Archer}}, \doxymbox{\hyperlink{class_knight_abd9e9abbc5448c928112a4b94d7e7dce}{Knight}}, \doxymbox{\hyperlink{class_mage_ae136b8777d93fff917e2da6eedcf58ea}{Mage}} и \doxymbox{\hyperlink{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6}{Warrior}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+creations-\/pattern/\+\+Creations Pattern/\+main.\+cpp\end{DoxyCompactItemize}

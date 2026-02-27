@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tea" xml:lang="ru">
+<title>Класс Tea</title>
+<indexterm><primary>Tea</primary></indexterm>
+<para>
+
+<para>Напиток чай Наследует интерфейс напитка </para>
+ 
+</para>
+<para>Граф наследования:Tea:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_tea.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_tea_1a1f1f781e52894889ee60051beb89db88">getDescription</link> () override</para>
+
+<para>Получает описание напитка </para>
+</listitem>
+            <listitem><para>double <link linkend="_class_tea_1a388bd78a0050a799115194ebf9f8617a">getCost</link> () override</para>
+
+<para>Получает стоимость напитка </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Напиток чай Наследует интерфейс напитка </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_tea_1a388bd78a0050a799115194ebf9f8617a"/><section>
+    <title>getCost()</title>
+<indexterm><primary>getCost</primary><secondary>Tea</secondary></indexterm>
+<indexterm><primary>Tea</primary><secondary>getCost</secondary></indexterm>
+<para><computeroutput>double Tea::getCost ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает стоимость напитка </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>double Стоимость напитка </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_beverage_1a65460ff419cb88cce7c465f719b0c1f4">Beverage</link>.</para>
+</section>
+<anchor xml:id="_class_tea_1a1f1f781e52894889ee60051beb89db88"/><section>
+    <title>getDescription()</title>
+<indexterm><primary>getDescription</primary><secondary>Tea</secondary></indexterm>
+<indexterm><primary>Tea</primary><secondary>getDescription</secondary></indexterm>
+<para><computeroutput>string Tea::getDescription ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает описание напитка </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>string Описание </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_beverage_1a23e305526d707afe1a006e441a71a8b8">Beverage</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+structure-pattern/Structural Pattern/main.cpp</section>
+</section>

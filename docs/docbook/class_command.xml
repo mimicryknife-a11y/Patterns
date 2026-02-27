@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_command" xml:lang="ru">
+<title>Класс Command</title>
+<indexterm><primary>Command</primary></indexterm>
+<para>
+
+<para>Интерфейс команды </para>
+ 
+</para>
+<para>Граф наследования:Command:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_command.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7">execute</link> ()=0</para>
+
+<para>Функция выполнения команды </para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_command_1ad5eccd34dc85abda2cd0c21d819c17dc">undo</link> ()=0</para>
+
+<para>Функция отмены команды </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Интерфейс команды </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7"/><section>
+    <title>execute()</title>
+<indexterm><primary>execute</primary><secondary>Command</secondary></indexterm>
+<indexterm><primary>Command</primary><secondary>execute</secondary></indexterm>
+<para><computeroutput>virtual void Command::execute ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Функция выполнения команды </para>
+</para>
+<para>
+Замещается в <link linkend="_class_launch_browser_command_1a7095647975f6e36fa51e8831020e6f60">LaunchBrowserCommand</link>, <link linkend="_class_open_file_command_1ad4c19347016458e2e9ef1e837e4ad0fe">OpenFileCommand</link>, <link linkend="_class_restard_command_1af55b9f9864f8fd77e5a399b94caded5a">RestardCommand</link> и <link linkend="_class_shutdown_command_1a9fbcb462c911ed9a45e40d7617846395">ShutdownCommand</link>.</para>
+</section>
+<anchor xml:id="_class_command_1ad5eccd34dc85abda2cd0c21d819c17dc"/><section>
+    <title>undo()</title>
+<indexterm><primary>undo</primary><secondary>Command</secondary></indexterm>
+<indexterm><primary>Command</primary><secondary>undo</secondary></indexterm>
+<para><computeroutput>virtual void Command::undo ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Функция отмены команды </para>
+</para>
+<para>
+Замещается в <link linkend="_class_launch_browser_command_1a1f74fc3f40306db43bf9df7289388662">LaunchBrowserCommand</link>, <link linkend="_class_open_file_command_1aeea4ae13a0c1748c00702f16c52f4e89">OpenFileCommand</link>, <link linkend="_class_restard_command_1a72aa90042c7423469944772733ed7d35">RestardCommand</link> и <link linkend="_class_shutdown_command_1a1ab55b9c24bc00698d95e4ff0f695087">ShutdownCommand</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+behavioral-pattern/Behavioral pattern/main.cpp</section>
+</section>

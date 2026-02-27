@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="dir_6d9de6b215f0fcafbdfcd9db5eea8865" kind="dir">
+    <compoundname>behavioral-pattern</compoundname>
+    <innerdir refid="dir_ce8276478abf7bcccef34eb96e98e3dc">behavioral-pattern/Behavioral pattern</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="behavioral-pattern/"/>
+  </compounddef>
+</doxygen>

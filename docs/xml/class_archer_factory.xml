@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_archer_factory" kind="class" language="C++" prot="public">
+    <compoundname>ArcherFactory</compoundname>
+    <basecompoundref refid="class_character_factory" prot="public" virt="non-virtual">CharacterFactory</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_archer_factory_1ab6649aa2561984b9001ace4bcda3db64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_character" kindref="compound">Character</ref> *</type>
+        <definition>Character * ArcherFactory::createCharacter</definition>
+        <argsstring>() override</argsstring>
+        <name>createCharacter</name>
+        <qualifiedname>ArcherFactory::createCharacter</qualifiedname>
+        <reimplements refid="class_character_factory_1a3e6c731ccaf371b16220933036207dba">createCharacter</reimplements>
+        <briefdescription>
+<para>Реализация функции создания лучника. Создаёт лучника. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Character* Указатель на лучника. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="199" column="11" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="199" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Реализация фабрики лучников. Наследует абстрактный класс фабрики персонаже </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ArcherFactory</label>
+        <link refid="class_archer_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CharacterFactory</label>
+        <link refid="class_character_factory"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ArcherFactory</label>
+        <link refid="class_archer_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CharacterFactory</label>
+        <link refid="class_character_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="creations-pattern/Creations Pattern/main.cpp" line="193" column="1" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="193" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_archer_factory_1ab6649aa2561984b9001ace4bcda3db64" prot="public" virt="virtual"><scope>ArcherFactory</scope><name>createCharacter</name></member>
+      <member refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" prot="public" virt="non-virtual"><scope>ArcherFactory</scope><name>spawnAndAttack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

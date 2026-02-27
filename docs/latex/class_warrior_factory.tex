@@ -1,0 +1,53 @@
+\doxysection{Класс Warrior\+Factory}
+\hypertarget{class_warrior_factory}{}\label{class_warrior_factory}\index{WarriorFactory@{WarriorFactory}}
+
+
+Реализация фабрики воинов. Наследует абстрактный класс фабрики персонаже  
+
+
+Граф наследования:\+Warrior\+Factory:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_warrior_factory}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_warrior_factory_a9df8c9e4fc56457d08ff5b6535913646}{create\+Character}} () override
+\begin{DoxyCompactList}\small\item\em Реализация функции создания воина. Создаёт воина. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_character_factory}{Character\+Factory}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries spawn\+And\+Attack} ()
+\begin{DoxyCompactList}\small\item\em Функция тестирующая персонажа. Имеет реализацию по умолчанию. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Реализация фабрики воинов. Наследует абстрактный класс фабрики персонаже 
+
+\label{doc-func-members}
+\Hypertarget{class_warrior_factory_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_warrior_factory_a9df8c9e4fc56457d08ff5b6535913646}\index{WarriorFactory@{WarriorFactory}!createCharacter@{createCharacter}}
+\index{createCharacter@{createCharacter}!WarriorFactory@{WarriorFactory}}
+\doxysubsubsection{\texorpdfstring{createCharacter()}{createCharacter()}}
+{\footnotesize\ttfamily \label{class_warrior_factory_a9df8c9e4fc56457d08ff5b6535913646} 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Warrior\+Factory::\+create\+Character (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Реализация функции создания воина. Создаёт воина. 
+
+\begin{DoxyReturn}{Возвращает}
+Character\texorpdfstring{$\ast$}{*} Указатель на воина. 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_character_factory_a3e6c731ccaf371b16220933036207dba}{Character\+Factory}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+creations-\/pattern/\+\+Creations Pattern/\+main.\+cpp\end{DoxyCompactItemize}

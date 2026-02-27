@@ -1,0 +1,85 @@
+\doxysection{РљР»Р°СЃСЃ Archer}
+\hypertarget{class_archer}{}\label{class_archer}\index{Archer@{Archer}}
+
+
+Реализация класса лучника Наследует интерфейс персонажа.  
+
+
+
+
+Р“СЂР°С„ РЅР°СЃР»РµРґРѕРІР°РЅРёСЏ:\+Archer:\+
+% FIG 0
+
+
+Р“СЂР°С„ СЃРІСЏР·РµР№ РєР»Р°СЃСЃР° Archer:\+
+% FIG 1
+\doxysubsubsection*{РћС‚РєСЂС‹С‚С‹Рµ С‡Р»РµРЅС‹}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{class_archer_a06b8cd5ef290796b05250eec34d677a1}{get\+Type}} () override
+\begin{DoxyCompactList}\small\item\em Возвращает уникальный тип персонажа \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_archer_ad5a62a929801de20b6c53858b8a77256}{attack}} () override
+\begin{DoxyCompactList}\small\item\em Скрипт атаки персонажа. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_archer_a89a53d966ff202960b8637717c0f42c8}{get\+Health}} () override
+\begin{DoxyCompactList}\small\item\em Возвращает максимальное количество жизней персонажа \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ}
+Реализация класса лучника Наследует интерфейс персонажа. 
+
+\label{doc-func-members}
+\Hypertarget{class_archer_doc-func-members}
+\doxysubsection{РњРµС‚РѕРґС‹}
+\Hypertarget{class_archer_ad5a62a929801de20b6c53858b8a77256}\index{Archer@{Archer}!attack@{attack}}
+\index{attack@{attack}!Archer@{Archer}}
+\doxysubsubsection{\texorpdfstring{attack()}{attack()}}
+{\footnotesize\ttfamily \label{class_archer_ad5a62a929801de20b6c53858b8a77256} 
+void Archer::\+attack (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Скрипт атаки персонажа. 
+
+
+
+Р—Р°РјРµС‰Р°РµС‚ \doxymbox{\hyperlink{class_character}{Character}}.
+
+\Hypertarget{class_archer_a89a53d966ff202960b8637717c0f42c8}\index{Archer@{Archer}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!Archer@{Archer}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily \label{class_archer_a89a53d966ff202960b8637717c0f42c8} 
+int Archer::\+get\+Health (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Возвращает максимальное количество жизней персонажа 
+
+\begin{DoxyReturn}{Р’РѕР·РІСЂР°С‰Р°РµС‚}
+int Максимальное количество жизней 
+\end{DoxyReturn}
+
+
+Р—Р°РјРµС‰Р°РµС‚ \doxymbox{\hyperlink{class_character_ab5e6d725195ce52be0115630bef36a38}{Character}}.
+
+\Hypertarget{class_archer_a06b8cd5ef290796b05250eec34d677a1}\index{Archer@{Archer}!getType@{getType}}
+\index{getType@{getType}!Archer@{Archer}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily \label{class_archer_a06b8cd5ef290796b05250eec34d677a1} 
+string Archer::\+get\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Возвращает уникальный тип персонажа 
+
+\begin{DoxyReturn}{Р’РѕР·РІСЂР°С‰Р°РµС‚}
+string Уникальный тип 
+\end{DoxyReturn}
+
+
+Р—Р°РјРµС‰Р°РµС‚ \doxymbox{\hyperlink{class_character_a7871a88b3bdfc17d58d737fd6cf04064}{Character}}.
+
+
+
+РћР±СЉСЏРІР»РµРЅРёСЏ Рё РѕРїРёСЃР°РЅРёСЏ С‡Р»РµРЅРѕРІ РєР»Р°СЃСЃР° РЅР°С…РѕРґСЏС‚СЃСЏ РІ С„Р°Р№Р»Рµ:\+\begin{DoxyCompactItemize}
+\item 
+creations-\/pattern/\+\+Creations Pattern/\+main.\+cpp\end{DoxyCompactItemize}

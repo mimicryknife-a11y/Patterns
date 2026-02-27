@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_character" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Character</compoundname>
+    <derivedcompoundref refid="class_archer" prot="public" virt="non-virtual">Archer</derivedcompoundref>
+    <derivedcompoundref refid="class_knight" prot="public" virt="non-virtual">Knight</derivedcompoundref>
+    <derivedcompoundref refid="class_mage" prot="public" virt="non-virtual">Mage</derivedcompoundref>
+    <derivedcompoundref refid="class_warrior" prot="public" virt="non-virtual">Warrior</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_character_1a7871a88b3bdfc17d58d737fd6cf04064" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>string</type>
+        <definition>virtual string Character::getType</definition>
+        <argsstring>()=0</argsstring>
+        <name>getType</name>
+        <qualifiedname>Character::getType</qualifiedname>
+        <reimplementedby refid="class_archer_1a06b8cd5ef290796b05250eec34d677a1">getType</reimplementedby>
+        <reimplementedby refid="class_knight_1abd9e9abbc5448c928112a4b94d7e7dce">getType</reimplementedby>
+        <reimplementedby refid="class_mage_1ae136b8777d93fff917e2da6eedcf58ea">getType</reimplementedby>
+        <reimplementedby refid="class_warrior_1ac5b177bd2922074cb8fe592ff90d73e6">getType</reimplementedby>
+        <briefdescription>
+<para>Возвращает уникальный тип персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Уникальный тип </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="16" column="16"/>
+        <referencedby refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" compoundref="creations-pattern_2_creations_01_pattern_2main_8cpp" startline="142" endline="147">CharacterFactory::spawnAndAttack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ab5e6d725195ce52be0115630bef36a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int Character::getHealth</definition>
+        <argsstring>()=0</argsstring>
+        <name>getHealth</name>
+        <qualifiedname>Character::getHealth</qualifiedname>
+        <reimplementedby refid="class_archer_1a89a53d966ff202960b8637717c0f42c8">getHealth</reimplementedby>
+        <reimplementedby refid="class_knight_1af6c3500520fbedd3aca1bf67191a92b8">getHealth</reimplementedby>
+        <reimplementedby refid="class_mage_1a5d3b882bf6e84e4f695a705e23645107">getHealth</reimplementedby>
+        <reimplementedby refid="class_warrior_1aa1418d23db6dac64b33ea11f8ceaa801">getHealth</reimplementedby>
+        <briefdescription>
+<para>Возвращает максимальное количество жизней персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int Максимальное количество жизней </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="23" column="13"/>
+        <referencedby refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" compoundref="creations-pattern_2_creations_01_pattern_2main_8cpp" startline="142" endline="147">CharacterFactory::spawnAndAttack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_character_1ae5f544841b326a10b86dee4196474b2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Character::attack</definition>
+        <argsstring>()=0</argsstring>
+        <name>attack</name>
+        <qualifiedname>Character::attack</qualifiedname>
+        <reimplementedby refid="class_archer_1ad5a62a929801de20b6c53858b8a77256">attack</reimplementedby>
+        <reimplementedby refid="class_knight_1ade9dd3a7d4b27a59b59f8cb123ecc4f4">attack</reimplementedby>
+        <reimplementedby refid="class_mage_1a5ac36b45df55997e4fa1f50ff571b7d1">attack</reimplementedby>
+        <reimplementedby refid="class_warrior_1a0d8d9631bffe5aee5e9420acc544c190">attack</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="25" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Интерфейс персонажа </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Archer</label>
+        <link refid="class_archer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Character</label>
+        <link refid="class_character"/>
+      </node>
+      <node id="3">
+        <label>Knight</label>
+        <link refid="class_knight"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Mage</label>
+        <link refid="class_mage"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Warrior</label>
+        <link refid="class_warrior"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="creations-pattern/Creations Pattern/main.cpp" line="10" column="1" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_character_1ae5f544841b326a10b86dee4196474b2e" prot="public" virt="pure-virtual"><scope>Character</scope><name>attack</name></member>
+      <member refid="class_character_1ab5e6d725195ce52be0115630bef36a38" prot="public" virt="pure-virtual"><scope>Character</scope><name>getHealth</name></member>
+      <member refid="class_character_1a7871a88b3bdfc17d58d737fd6cf04064" prot="public" virt="pure-virtual"><scope>Character</scope><name>getType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

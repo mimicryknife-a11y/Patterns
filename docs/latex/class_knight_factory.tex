@@ -1,0 +1,53 @@
+\doxysection{Класс Knight\+Factory}
+\hypertarget{class_knight_factory}{}\label{class_knight_factory}\index{KnightFactory@{KnightFactory}}
+
+
+Реализация фабрики рыцарей. Наследует абстрактный класс фабрики персонаже  
+
+
+Граф наследования:\+Knight\+Factory:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_knight_factory}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_knight_factory_a0ca5c86535309adcedd03762810aea78}{create\+Character}} () override
+\begin{DoxyCompactList}\small\item\em Реализация функции создания рыцаря. Создаёт рыцаря. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_character_factory}{Character\+Factory}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries spawn\+And\+Attack} ()
+\begin{DoxyCompactList}\small\item\em Функция тестирующая персонажа. Имеет реализацию по умолчанию. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Реализация фабрики рыцарей. Наследует абстрактный класс фабрики персонаже 
+
+\label{doc-func-members}
+\Hypertarget{class_knight_factory_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_knight_factory_a0ca5c86535309adcedd03762810aea78}\index{KnightFactory@{KnightFactory}!createCharacter@{createCharacter}}
+\index{createCharacter@{createCharacter}!KnightFactory@{KnightFactory}}
+\doxysubsubsection{\texorpdfstring{createCharacter()}{createCharacter()}}
+{\footnotesize\ttfamily \label{class_knight_factory_a0ca5c86535309adcedd03762810aea78} 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Knight\+Factory::\+create\+Character (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Реализация функции создания рыцаря. Создаёт рыцаря. 
+
+\begin{DoxyReturn}{Возвращает}
+Character\texorpdfstring{$\ast$}{*} Указатель на рыцаря. 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_character_factory_a3e6c731ccaf371b16220933036207dba}{Character\+Factory}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+creations-\/pattern/\+\+Creations Pattern/\+main.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,81 @@
+\doxysection{Класс Restard\+Command}
+\hypertarget{class_restard_command}{}\label{class_restard_command}\index{RestardCommand@{RestardCommand}}
+
+
+Команды перезапуска команды Наследует интерфейс команды  
+
+
+Граф наследования:\+Restard\+Command:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_restard_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_restard_command_a4a8f79ab2f5d2e59ad2853c744c6fdc2}{Restard\+Command}} (\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}system)
+\begin{DoxyCompactList}\small\item\em Конструктор команды \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_restard_command_af55b9f9864f8fd77e5a399b94caded5a}{execute}} () override
+\begin{DoxyCompactList}\small\item\em Функция выполнения команды \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_restard_command_a72aa90042c7423469944772733ed7d35}{undo}} () override
+\begin{DoxyCompactList}\small\item\em Функция отмены команды \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Команды перезапуска команды Наследует интерфейс команды 
+
+\label{doc-constructors}
+\Hypertarget{class_restard_command_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_restard_command_a4a8f79ab2f5d2e59ad2853c744c6fdc2}\index{RestardCommand@{RestardCommand}!RestardCommand@{RestardCommand}}
+\index{RestardCommand@{RestardCommand}!RestardCommand@{RestardCommand}}
+\doxysubsubsection{\texorpdfstring{RestardCommand()}{RestardCommand()}}
+{\footnotesize\ttfamily \label{class_restard_command_a4a8f79ab2f5d2e59ad2853c744c6fdc2} 
+Restard\+Command::\+\+Restard\+Command (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}}]{system}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор команды 
+
+\begin{DoxyReturn}{Возвращает}
+system Указатель на систему 
+\end{DoxyReturn}
+
+
+\label{doc-func-members}
+\Hypertarget{class_restard_command_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_restard_command_af55b9f9864f8fd77e5a399b94caded5a}\index{RestardCommand@{RestardCommand}!execute@{execute}}
+\index{execute@{execute}!RestardCommand@{RestardCommand}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{class_restard_command_af55b9f9864f8fd77e5a399b94caded5a} 
+void Restard\+Command::\+execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция выполнения команды 
+
+
+
+Замещает \doxymbox{\hyperlink{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7}{Command}}.
+
+\Hypertarget{class_restard_command_a72aa90042c7423469944772733ed7d35}\index{RestardCommand@{RestardCommand}!undo@{undo}}
+\index{undo@{undo}!RestardCommand@{RestardCommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{class_restard_command_a72aa90042c7423469944772733ed7d35} 
+void Restard\+Command::\+undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция отмены команды 
+
+
+
+Замещает \doxymbox{\hyperlink{class_command_ad5eccd34dc85abda2cd0c21d819c17dc}{Command}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+behavioral-\/pattern/\+\+Behavioral pattern/\+main.\+cpp\end{DoxyCompactItemize}

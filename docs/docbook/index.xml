@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="ru">
+    <info>
+    <title>Patterns</title>
+    </info>
+    <xi:include href="md__r_e_a_d_m_e.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<chapter>
+    <title>Классы</title>
+    <xi:include href="class_archer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_archer_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_beverage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_character.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_character_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_computer_system.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_condiment_decorator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_espresso.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_golden_poop.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_knight.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_knight_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_launch_browser_command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_mage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_mage_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_milk.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_open_file_command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_remote_control.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_restard_command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_shutdown_command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sugar.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_syrup.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_tea.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_warrior.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_warrior_factory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

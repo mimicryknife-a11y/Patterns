@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_espresso" kind="class" language="C++" prot="public">
+    <compoundname>Espresso</compoundname>
+    <basecompoundref refid="class_beverage" prot="public" virt="non-virtual">Beverage</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_espresso_1a03a8c6439c9c2db55b890cda1b58a6a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string Espresso::getDescription</definition>
+        <argsstring>() override</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>Espresso::getDescription</qualifiedname>
+        <reimplements refid="class_beverage_1a23e305526d707afe1a006e441a71a8b8">getDescription</reimplements>
+        <briefdescription>
+<para>Получает описание напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Описание </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="34" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_espresso_1a4225caad3e77e9364d56243f68971e64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double Espresso::getCost</definition>
+        <argsstring>() override</argsstring>
+        <name>getCost</name>
+        <qualifiedname>Espresso::getCost</qualifiedname>
+        <reimplements refid="class_beverage_1a65460ff419cb88cce7c465f719b0c1f4">getCost</reimplements>
+        <briefdescription>
+<para>Получает стоимость напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double Стоимость напитка </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="40" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Напиток экспрессо Наследует интерфейс напитка </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="1">
+        <label>Espresso</label>
+        <link refid="class_espresso"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="1">
+        <label>Espresso</label>
+        <link refid="class_espresso"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="structure-pattern/Structural Pattern/main.cpp" line="28" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="28" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_espresso_1a4225caad3e77e9364d56243f68971e64" prot="public" virt="virtual"><scope>Espresso</scope><name>getCost</name></member>
+      <member refid="class_espresso_1a03a8c6439c9c2db55b890cda1b58a6a6" prot="public" virt="virtual"><scope>Espresso</scope><name>getDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

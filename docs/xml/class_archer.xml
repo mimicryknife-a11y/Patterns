@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_archer" kind="class" language="C++" prot="public">
+    <compoundname>Archer</compoundname>
+    <basecompoundref refid="class_character" prot="public" virt="non-virtual">Character</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_archer_1a06b8cd5ef290796b05250eec34d677a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string Archer::getType</definition>
+        <argsstring>() override</argsstring>
+        <name>getType</name>
+        <qualifiedname>Archer::getType</qualifiedname>
+        <reimplements refid="class_character_1a7871a88b3bdfc17d58d737fd6cf04064">getType</reimplements>
+        <briefdescription>
+<para>Возвращает уникальный тип персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Уникальный тип </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="112" column="8" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_archer_1ad5a62a929801de20b6c53858b8a77256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Archer::attack</definition>
+        <argsstring>() override</argsstring>
+        <name>attack</name>
+        <qualifiedname>Archer::attack</qualifiedname>
+        <reimplements refid="class_character_1ae5f544841b326a10b86dee4196474b2e">attack</reimplements>
+        <briefdescription>
+<para>Скрипт атаки персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="117" column="6" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_archer_1a89a53d966ff202960b8637717c0f42c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int Archer::getHealth</definition>
+        <argsstring>() override</argsstring>
+        <name>getHealth</name>
+        <qualifiedname>Archer::getHealth</qualifiedname>
+        <reimplements refid="class_character_1ab5e6d725195ce52be0115630bef36a38">getHealth</reimplements>
+        <briefdescription>
+<para>Возвращает максимальное количество жизней персонажа </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int Максимальное количество жизней </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="124" column="5" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="124" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Реализация класса лучника Наследует интерфейс персонажа </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Archer</label>
+        <link refid="class_archer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Character</label>
+        <link refid="class_character"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Archer</label>
+        <link refid="class_archer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Character</label>
+        <link refid="class_character"/>
+      </node>
+    </collaborationgraph>
+    <location file="creations-pattern/Creations Pattern/main.cpp" line="106" column="1" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="106" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_archer_1ad5a62a929801de20b6c53858b8a77256" prot="public" virt="virtual"><scope>Archer</scope><name>attack</name></member>
+      <member refid="class_archer_1a89a53d966ff202960b8637717c0f42c8" prot="public" virt="virtual"><scope>Archer</scope><name>getHealth</name></member>
+      <member refid="class_archer_1a06b8cd5ef290796b05250eec34d677a1" prot="public" virt="virtual"><scope>Archer</scope><name>getType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_restard_command" kind="class" language="C++" prot="public">
+    <compoundname>RestardCommand</compoundname>
+    <basecompoundref refid="class_command" prot="public" virt="non-virtual">Command</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_restard_command_1a328c3055e90c5af64f6d24e047bdcf89" prot="private" static="no" mutable="no">
+        <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+        <definition>ComputerSystem* RestardCommand::system</definition>
+        <argsstring></argsstring>
+        <name>system</name>
+        <qualifiedname>RestardCommand::system</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="134" column="16" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_restard_command_1a4a8f79ab2f5d2e59ad2853c744c6fdc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RestardCommand::RestardCommand</definition>
+        <argsstring>(ComputerSystem *system)</argsstring>
+        <name>RestardCommand</name>
+        <qualifiedname>RestardCommand::RestardCommand</qualifiedname>
+        <param>
+          <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор команды </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>system Указатель на систему </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="141" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_restard_command_1af55b9f9864f8fd77e5a399b94caded5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void RestardCommand::execute</definition>
+        <argsstring>() override</argsstring>
+        <name>execute</name>
+        <qualifiedname>RestardCommand::execute</qualifiedname>
+        <reimplements refid="class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7">execute</reimplements>
+        <briefdescription>
+<para>Функция выполнения команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="146" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_restard_command_1a72aa90042c7423469944772733ed7d35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void RestardCommand::undo</definition>
+        <argsstring>() override</argsstring>
+        <name>undo</name>
+        <qualifiedname>RestardCommand::undo</qualifiedname>
+        <reimplements refid="class_command_1ad5eccd34dc85abda2cd0c21d819c17dc">undo</reimplements>
+        <briefdescription>
+<para>Функция отмены команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="151" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="151" bodyend="151"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Команды перезапуска команды Наследует интерфейс команды </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>RestardCommand</label>
+        <link refid="class_restard_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>RestardCommand</label>
+        <link refid="class_restard_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="132" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="132" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_restard_command_1af55b9f9864f8fd77e5a399b94caded5a" prot="public" virt="virtual"><scope>RestardCommand</scope><name>execute</name></member>
+      <member refid="class_restard_command_1a4a8f79ab2f5d2e59ad2853c744c6fdc2" prot="public" virt="non-virtual"><scope>RestardCommand</scope><name>RestardCommand</name></member>
+      <member refid="class_restard_command_1a328c3055e90c5af64f6d24e047bdcf89" prot="private" virt="non-virtual"><scope>RestardCommand</scope><name>system</name></member>
+      <member refid="class_restard_command_1a72aa90042c7423469944772733ed7d35" prot="public" virt="virtual"><scope>RestardCommand</scope><name>undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

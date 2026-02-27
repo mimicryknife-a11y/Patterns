@@ -1,0 +1,446 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html#ac40bf5f2f259c34f7223b2d28e8b08e9"><param name="Name" value="addCommand(Command *cmd)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html"><param name="Name" value="Archer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html"><param name="Name" value="Archer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#ad5a62a929801de20b6c53858b8a77256"><param name="Name" value="attack() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html"><param name="Name" value="Archer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#a89a53d966ff202960b8637717c0f42c8"><param name="Name" value="getHealth() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html"><param name="Name" value="Archer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#a06b8cd5ef290796b05250eec34d677a1"><param name="Name" value="getType() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer_factory.html"><param name="Name" value="ArcherFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer_factory.html"><param name="Name" value="ArcherFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer_factory.html#ab6649aa2561984b9001ace4bcda3db64"><param name="Name" value="createCharacter() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#ad5a62a929801de20b6c53858b8a77256"><param name="Name" value="attack() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#ad5a62a929801de20b6c53858b8a77256"><param name="Name" value="Archer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#ade9dd3a7d4b27a59b59f8cb123ecc4f4"><param name="Name" value="attack() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#ade9dd3a7d4b27a59b59f8cb123ecc4f4"><param name="Name" value="Knight"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#a0d8d9631bffe5aee5e9420acc544c190"><param name="Name" value="attack() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#a0d8d9631bffe5aee5e9420acc544c190"><param name="Name" value="Warrior"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_beverage.html"><param name="Name" value="Beverage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_beverage.html"><param name="Name" value="Beverage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_beverage.html#a65460ff419cb88cce7c465f719b0c1f4"><param name="Name" value="getCost()=0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_beverage.html"><param name="Name" value="Beverage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_beverage.html#a23e305526d707afe1a006e441a71a8b8"><param name="Name" value="getDescription()=0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character.html"><param name="Name" value="Character"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character.html"><param name="Name" value="Character"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character.html#ab5e6d725195ce52be0115630bef36a38"><param name="Name" value="getHealth()=0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character.html"><param name="Name" value="Character"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character.html#a7871a88b3bdfc17d58d737fd6cf04064"><param name="Name" value="getType()=0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character_factory.html"><param name="Name" value="CharacterFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character_factory.html"><param name="Name" value="CharacterFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character_factory.html#a3e6c731ccaf371b16220933036207dba"><param name="Name" value="createCharacter()=0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character_factory.html"><param name="Name" value="CharacterFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character_factory.html#a6f13a9955e9286aac376e8c4445f2664"><param name="Name" value="spawnAndAttack()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html"><param name="Name" value="Command"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html"><param name="Name" value="Command"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#a6fd7d9bd8df8bfc881e4d6c7cd1878b7"><param name="Name" value="execute()=0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html"><param name="Name" value="Command"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#ad5eccd34dc85abda2cd0c21d819c17dc"><param name="Name" value="undo()=0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html"><param name="Name" value="ComputerSystem"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html"><param name="Name" value="ComputerSystem"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html#a23cc81ddb3f1661bd9a1654c38639ff5"><param name="Name" value="launchBrowser()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html"><param name="Name" value="ComputerSystem"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html#a6b5f96a17a69ad15b8df80ab96f000d9"><param name="Name" value="openFile(const string &amp;file)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html"><param name="Name" value="ComputerSystem"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html#a53b220c30feb7282f9acfd755bd6dffd"><param name="Name" value="shutdown()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html"><param name="Name" value="CondimentDecorator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a15b5ebd546cbdb63c7097d72bf6b6faf"><param name="Name" value="CondimentDecorator(Beverage *beverage)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html"><param name="Name" value="CondimentDecorator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a15b5ebd546cbdb63c7097d72bf6b6faf"><param name="Name" value="CondimentDecorator(Beverage *beverage)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html"><param name="Name" value="CondimentDecorator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a13d93696470b1f11fce6b66d250c78df"><param name="Name" value="getCost() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html"><param name="Name" value="CondimentDecorator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a0f95d1319daadd8ed01b2ffaa3c601d6"><param name="Name" value="getDescription() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer_factory.html#ab6649aa2561984b9001ace4bcda3db64"><param name="Name" value="createCharacter() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer_factory.html#ab6649aa2561984b9001ace4bcda3db64"><param name="Name" value="ArcherFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight_factory.html#a0ca5c86535309adcedd03762810aea78"><param name="Name" value="createCharacter() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight_factory.html#a0ca5c86535309adcedd03762810aea78"><param name="Name" value="KnightFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage_factory.html#aa4e95840bd6665e14c3eda4c280faed6"><param name="Name" value="createCharacter() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage_factory.html#aa4e95840bd6665e14c3eda4c280faed6"><param name="Name" value="MageFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior_factory.html#a9df8c9e4fc56457d08ff5b6535913646"><param name="Name" value="createCharacter() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior_factory.html#a9df8c9e4fc56457d08ff5b6535913646"><param name="Name" value="WarriorFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character_factory.html#a3e6c731ccaf371b16220933036207dba"><param name="Name" value="createCharacter()=0"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html"><param name="Name" value="Espresso"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html"><param name="Name" value="Espresso"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html#a4225caad3e77e9364d56243f68971e64"><param name="Name" value="getCost() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html"><param name="Name" value="Espresso"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html#a03a8c6439c9c2db55b890cda1b58a6a6"><param name="Name" value="getDescription() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a7095647975f6e36fa51e8831020e6f60"><param name="Name" value="execute() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a7095647975f6e36fa51e8831020e6f60"><param name="Name" value="LaunchBrowserCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#ad4c19347016458e2e9ef1e837e4ad0fe"><param name="Name" value="execute() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#ad4c19347016458e2e9ef1e837e4ad0fe"><param name="Name" value="OpenFileCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#af55b9f9864f8fd77e5a399b94caded5a"><param name="Name" value="execute() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#af55b9f9864f8fd77e5a399b94caded5a"><param name="Name" value="RestardCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#a9fbcb462c911ed9a45e40d7617846395"><param name="Name" value="execute() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#a9fbcb462c911ed9a45e40d7617846395"><param name="Name" value="ShutdownCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#a6fd7d9bd8df8bfc881e4d6c7cd1878b7"><param name="Name" value="execute()=0"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a13d93696470b1f11fce6b66d250c78df"><param name="Name" value="getCost() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a13d93696470b1f11fce6b66d250c78df"><param name="Name" value="CondimentDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html#a4225caad3e77e9364d56243f68971e64"><param name="Name" value="getCost() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html#a4225caad3e77e9364d56243f68971e64"><param name="Name" value="Espresso"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#a130a2f96d713af40b8d032d4b155c8c6"><param name="Name" value="getCost() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#a130a2f96d713af40b8d032d4b155c8c6"><param name="Name" value="GoldenPoop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a81e434be08b65ff9e5a445c393fde68d"><param name="Name" value="getCost() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a81e434be08b65ff9e5a445c393fde68d"><param name="Name" value="Milk"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#a6518625592942a5a36f2bc6d845ca48d"><param name="Name" value="getCost() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#a6518625592942a5a36f2bc6d845ca48d"><param name="Name" value="Sugar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#a25d5acf5e71a41da1a42bba6973103a1"><param name="Name" value="getCost() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#a25d5acf5e71a41da1a42bba6973103a1"><param name="Name" value="Syrup"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html#a388bd78a0050a799115194ebf9f8617a"><param name="Name" value="getCost() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html#a388bd78a0050a799115194ebf9f8617a"><param name="Name" value="Tea"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_beverage.html#a65460ff419cb88cce7c465f719b0c1f4"><param name="Name" value="getCost()=0"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a0f95d1319daadd8ed01b2ffaa3c601d6"><param name="Name" value="getDescription() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_condiment_decorator.html#a0f95d1319daadd8ed01b2ffaa3c601d6"><param name="Name" value="CondimentDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html#a03a8c6439c9c2db55b890cda1b58a6a6"><param name="Name" value="getDescription() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_espresso.html#a03a8c6439c9c2db55b890cda1b58a6a6"><param name="Name" value="Espresso"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#a7bc9980feb96e85e6c760ebffc749305"><param name="Name" value="getDescription() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#a7bc9980feb96e85e6c760ebffc749305"><param name="Name" value="GoldenPoop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a693769c2fd19713253939665d12fa5ab"><param name="Name" value="getDescription() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a693769c2fd19713253939665d12fa5ab"><param name="Name" value="Milk"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#afe82094b43e6da7041983c35bfb7197b"><param name="Name" value="getDescription() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#afe82094b43e6da7041983c35bfb7197b"><param name="Name" value="Sugar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#ae59f9838cff7fa21d989a373c1634bfe"><param name="Name" value="getDescription() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#ae59f9838cff7fa21d989a373c1634bfe"><param name="Name" value="Syrup"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html#a1f1f781e52894889ee60051beb89db88"><param name="Name" value="getDescription() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html#a1f1f781e52894889ee60051beb89db88"><param name="Name" value="Tea"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_beverage.html#a23e305526d707afe1a006e441a71a8b8"><param name="Name" value="getDescription()=0"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#a89a53d966ff202960b8637717c0f42c8"><param name="Name" value="getHealth() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#a89a53d966ff202960b8637717c0f42c8"><param name="Name" value="Archer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#af6c3500520fbedd3aca1bf67191a92b8"><param name="Name" value="getHealth() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#af6c3500520fbedd3aca1bf67191a92b8"><param name="Name" value="Knight"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html#a5d3b882bf6e84e4f695a705e23645107"><param name="Name" value="getHealth() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html#a5d3b882bf6e84e4f695a705e23645107"><param name="Name" value="Mage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#aa1418d23db6dac64b33ea11f8ceaa801"><param name="Name" value="getHealth() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#aa1418d23db6dac64b33ea11f8ceaa801"><param name="Name" value="Warrior"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character.html#ab5e6d725195ce52be0115630bef36a38"><param name="Name" value="getHealth()=0"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#a06b8cd5ef290796b05250eec34d677a1"><param name="Name" value="getType() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_archer.html#a06b8cd5ef290796b05250eec34d677a1"><param name="Name" value="Archer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#abd9e9abbc5448c928112a4b94d7e7dce"><param name="Name" value="getType() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#abd9e9abbc5448c928112a4b94d7e7dce"><param name="Name" value="Knight"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html#ae136b8777d93fff917e2da6eedcf58ea"><param name="Name" value="getType() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html#ae136b8777d93fff917e2da6eedcf58ea"><param name="Name" value="Mage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#ac5b177bd2922074cb8fe592ff90d73e6"><param name="Name" value="getType() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#ac5b177bd2922074cb8fe592ff90d73e6"><param name="Name" value="Warrior"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character.html#a7871a88b3bdfc17d58d737fd6cf04064"><param name="Name" value="getType()=0"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html"><param name="Name" value="GoldenPoop"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#afa2d9fda56b6c401ef096a03824b54e0"><param name="Name" value="GoldenPoop(Beverage *beverage)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html"><param name="Name" value="GoldenPoop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#a130a2f96d713af40b8d032d4b155c8c6"><param name="Name" value="getCost() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html"><param name="Name" value="GoldenPoop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#a7bc9980feb96e85e6c760ebffc749305"><param name="Name" value="getDescription() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html"><param name="Name" value="GoldenPoop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_golden_poop.html#afa2d9fda56b6c401ef096a03824b54e0"><param name="Name" value="GoldenPoop(Beverage *beverage)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html"><param name="Name" value="Knight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html"><param name="Name" value="Knight"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#ade9dd3a7d4b27a59b59f8cb123ecc4f4"><param name="Name" value="attack() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html"><param name="Name" value="Knight"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#af6c3500520fbedd3aca1bf67191a92b8"><param name="Name" value="getHealth() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html"><param name="Name" value="Knight"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight.html#abd9e9abbc5448c928112a4b94d7e7dce"><param name="Name" value="getType() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight_factory.html"><param name="Name" value="KnightFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight_factory.html"><param name="Name" value="KnightFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_knight_factory.html#a0ca5c86535309adcedd03762810aea78"><param name="Name" value="createCharacter() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html#a23cc81ddb3f1661bd9a1654c38639ff5"><param name="Name" value="launchBrowser()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html"><param name="Name" value="LaunchBrowserCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a34413ca742aeb01b2e65fdd70ab84e3a"><param name="Name" value="LaunchBrowserCommand(ComputerSystem *system)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html"><param name="Name" value="LaunchBrowserCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a7095647975f6e36fa51e8831020e6f60"><param name="Name" value="execute() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html"><param name="Name" value="LaunchBrowserCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a34413ca742aeb01b2e65fdd70ab84e3a"><param name="Name" value="LaunchBrowserCommand(ComputerSystem *system)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html"><param name="Name" value="LaunchBrowserCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a1f74fc3f40306db43bf9df7289388662"><param name="Name" value="undo() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html"><param name="Name" value="Mage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html"><param name="Name" value="Mage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html#a5d3b882bf6e84e4f695a705e23645107"><param name="Name" value="getHealth() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html"><param name="Name" value="Mage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage.html#ae136b8777d93fff917e2da6eedcf58ea"><param name="Name" value="getType() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage_factory.html"><param name="Name" value="MageFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage_factory.html"><param name="Name" value="MageFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_mage_factory.html#aa4e95840bd6665e14c3eda4c280faed6"><param name="Name" value="createCharacter() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html"><param name="Name" value="Milk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a50613147fa2dc42e220967095df504dd"><param name="Name" value="Milk(Beverage *beverage)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html"><param name="Name" value="Milk"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a81e434be08b65ff9e5a445c393fde68d"><param name="Name" value="getCost() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html"><param name="Name" value="Milk"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a693769c2fd19713253939665d12fa5ab"><param name="Name" value="getDescription() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html"><param name="Name" value="Milk"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_milk.html#a50613147fa2dc42e220967095df504dd"><param name="Name" value="Milk(Beverage *beverage)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html#a6b5f96a17a69ad15b8df80ab96f000d9"><param name="Name" value="openFile(const string &amp;file)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html"><param name="Name" value="OpenFileCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#a7c12d303c20d916aa697a207706d8148"><param name="Name" value="OpenFileCommand(ComputerSystem *system, const string &amp;fileName)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html"><param name="Name" value="OpenFileCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#ad4c19347016458e2e9ef1e837e4ad0fe"><param name="Name" value="execute() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html"><param name="Name" value="OpenFileCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#a7c12d303c20d916aa697a207706d8148"><param name="Name" value="OpenFileCommand(ComputerSystem *system, const string &amp;fileName)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html"><param name="Name" value="OpenFileCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#aeea4ae13a0c1748c00702f16c52f4e89"><param name="Name" value="undo() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="md__r_e_a_d_m_e.html"><param name="Name" value="Patterns"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html#af50cd5c681a1bfe2f33a160f6b7c5e7a"><param name="Name" value="pressButton()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html"><param name="Name" value="RemoteControl"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html"><param name="Name" value="RemoteControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html#ac40bf5f2f259c34f7223b2d28e8b08e9"><param name="Name" value="addCommand(Command *cmd)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html"><param name="Name" value="RemoteControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html#af50cd5c681a1bfe2f33a160f6b7c5e7a"><param name="Name" value="pressButton()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html"><param name="Name" value="RemoteControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html#a23169e89ccd0051130e668c2f124d860"><param name="Name" value="undoLast()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html"><param name="Name" value="RestardCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#a4a8f79ab2f5d2e59ad2853c744c6fdc2"><param name="Name" value="RestardCommand(ComputerSystem *system)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html"><param name="Name" value="RestardCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#af55b9f9864f8fd77e5a399b94caded5a"><param name="Name" value="execute() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html"><param name="Name" value="RestardCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#a4a8f79ab2f5d2e59ad2853c744c6fdc2"><param name="Name" value="RestardCommand(ComputerSystem *system)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html"><param name="Name" value="RestardCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#a72aa90042c7423469944772733ed7d35"><param name="Name" value="undo() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_computer_system.html#a53b220c30feb7282f9acfd755bd6dffd"><param name="Name" value="shutdown()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html"><param name="Name" value="ShutdownCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#ace3e2cb8fc412dd71df920281e9442c5"><param name="Name" value="ShutdownCommand(ComputerSystem *system)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html"><param name="Name" value="ShutdownCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#a9fbcb462c911ed9a45e40d7617846395"><param name="Name" value="execute() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html"><param name="Name" value="ShutdownCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#ace3e2cb8fc412dd71df920281e9442c5"><param name="Name" value="ShutdownCommand(ComputerSystem *system)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html"><param name="Name" value="ShutdownCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#a1ab55b9c24bc00698d95e4ff0f695087"><param name="Name" value="undo() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_character_factory.html#a6f13a9955e9286aac376e8c4445f2664"><param name="Name" value="spawnAndAttack()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html"><param name="Name" value="Sugar"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#abff38f40065b079e2de45d1dc8dfe5f1"><param name="Name" value="Sugar(Beverage *beverage)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html"><param name="Name" value="Sugar"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#a6518625592942a5a36f2bc6d845ca48d"><param name="Name" value="getCost() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html"><param name="Name" value="Sugar"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#afe82094b43e6da7041983c35bfb7197b"><param name="Name" value="getDescription() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html"><param name="Name" value="Sugar"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sugar.html#abff38f40065b079e2de45d1dc8dfe5f1"><param name="Name" value="Sugar(Beverage *beverage)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html"><param name="Name" value="Syrup"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#a4d3eab679a06bff1fce71eeb3ebad94f"><param name="Name" value="Syrup(Beverage *beverage)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html"><param name="Name" value="Syrup"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#a25d5acf5e71a41da1a42bba6973103a1"><param name="Name" value="getCost() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html"><param name="Name" value="Syrup"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#ae59f9838cff7fa21d989a373c1634bfe"><param name="Name" value="getDescription() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html"><param name="Name" value="Syrup"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_syrup.html#a4d3eab679a06bff1fce71eeb3ebad94f"><param name="Name" value="Syrup(Beverage *beverage)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html"><param name="Name" value="Tea"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html"><param name="Name" value="Tea"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html#a388bd78a0050a799115194ebf9f8617a"><param name="Name" value="getCost() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html"><param name="Name" value="Tea"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_tea.html#a1f1f781e52894889ee60051beb89db88"><param name="Name" value="getDescription() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a1f74fc3f40306db43bf9df7289388662"><param name="Name" value="undo() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_launch_browser_command.html#a1f74fc3f40306db43bf9df7289388662"><param name="Name" value="LaunchBrowserCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#aeea4ae13a0c1748c00702f16c52f4e89"><param name="Name" value="undo() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_open_file_command.html#aeea4ae13a0c1748c00702f16c52f4e89"><param name="Name" value="OpenFileCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#a72aa90042c7423469944772733ed7d35"><param name="Name" value="undo() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_restard_command.html#a72aa90042c7423469944772733ed7d35"><param name="Name" value="RestardCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#a1ab55b9c24bc00698d95e4ff0f695087"><param name="Name" value="undo() override"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_shutdown_command.html#a1ab55b9c24bc00698d95e4ff0f695087"><param name="Name" value="ShutdownCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#ad5eccd34dc85abda2cd0c21d819c17dc"><param name="Name" value="undo()=0"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_remote_control.html#a23169e89ccd0051130e668c2f124d860"><param name="Name" value="undoLast()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html"><param name="Name" value="Warrior"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html"><param name="Name" value="Warrior"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#a0d8d9631bffe5aee5e9420acc544c190"><param name="Name" value="attack() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html"><param name="Name" value="Warrior"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#aa1418d23db6dac64b33ea11f8ceaa801"><param name="Name" value="getHealth() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html"><param name="Name" value="Warrior"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior.html#ac5b177bd2922074cb8fe592ff90d73e6"><param name="Name" value="getType() override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior_factory.html"><param name="Name" value="WarriorFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior_factory.html"><param name="Name" value="WarriorFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_warrior_factory.html#a9df8c9e4fc56457d08ff5b6535913646"><param name="Name" value="createCharacter() override"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>

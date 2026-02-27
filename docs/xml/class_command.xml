@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_command" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Command</compoundname>
+    <derivedcompoundref refid="class_launch_browser_command" prot="public" virt="non-virtual">LaunchBrowserCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_open_file_command" prot="public" virt="non-virtual">OpenFileCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_restard_command" prot="public" virt="non-virtual">RestardCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_shutdown_command" prot="public" virt="non-virtual">ShutdownCommand</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Command::execute</definition>
+        <argsstring>()=0</argsstring>
+        <name>execute</name>
+        <qualifiedname>Command::execute</qualifiedname>
+        <reimplementedby refid="class_launch_browser_command_1a7095647975f6e36fa51e8831020e6f60">execute</reimplementedby>
+        <reimplementedby refid="class_open_file_command_1ad4c19347016458e2e9ef1e837e4ad0fe">execute</reimplementedby>
+        <reimplementedby refid="class_restard_command_1af55b9f9864f8fd77e5a399b94caded5a">execute</reimplementedby>
+        <reimplementedby refid="class_shutdown_command_1a9fbcb462c911ed9a45e40d7617846395">execute</reimplementedby>
+        <briefdescription>
+<para>Функция выполнения команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="40" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_command_1ad5eccd34dc85abda2cd0c21d819c17dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Command::undo</definition>
+        <argsstring>()=0</argsstring>
+        <name>undo</name>
+        <qualifiedname>Command::undo</qualifiedname>
+        <reimplementedby refid="class_launch_browser_command_1a1f74fc3f40306db43bf9df7289388662">undo</reimplementedby>
+        <reimplementedby refid="class_open_file_command_1aeea4ae13a0c1748c00702f16c52f4e89">undo</reimplementedby>
+        <reimplementedby refid="class_restard_command_1a72aa90042c7423469944772733ed7d35">undo</reimplementedby>
+        <reimplementedby refid="class_shutdown_command_1a1ab55b9c24bc00698d95e4ff0f695087">undo</reimplementedby>
+        <briefdescription>
+<para>Функция отмены команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="45" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Интерфейс команды </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="2">
+        <label>LaunchBrowserCommand</label>
+        <link refid="class_launch_browser_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>OpenFileCommand</label>
+        <link refid="class_open_file_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>RestardCommand</label>
+        <link refid="class_restard_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ShutdownCommand</label>
+        <link refid="class_shutdown_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="34" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="34" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7" prot="public" virt="pure-virtual"><scope>Command</scope><name>execute</name></member>
+      <member refid="class_command_1ad5eccd34dc85abda2cd0c21d819c17dc" prot="public" virt="pure-virtual"><scope>Command</scope><name>undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

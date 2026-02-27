@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_character_factory" xml:lang="ru">
+<title>Класс CharacterFactory</title>
+<indexterm><primary>CharacterFactory</primary></indexterm>
+<para>
+
+<para>Абстрактный класс фабрики персонажей </para>
+ 
+</para>
+<para>Граф наследования:CharacterFactory:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_character_factory.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>virtual <link linkend="_class_character">Character</link> * <link linkend="_class_character_factory_1a3e6c731ccaf371b16220933036207dba">createCharacter</link> ()=0</para>
+
+<para>Не реализованная функция создания персонажа. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_character_factory_1a6f13a9955e9286aac376e8c4445f2664"/>void <emphasis role="strong">spawnAndAttack</emphasis> ()</para>
+
+<para>Функция тестирующая персонажа. Имеет реализацию по умолчанию. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Абстрактный класс фабрики персонажей </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_character_factory_1a3e6c731ccaf371b16220933036207dba"/><section>
+    <title>createCharacter()</title>
+<indexterm><primary>createCharacter</primary><secondary>CharacterFactory</secondary></indexterm>
+<indexterm><primary>CharacterFactory</primary><secondary>createCharacter</secondary></indexterm>
+<para><computeroutput>virtual <link linkend="_class_character">Character</link> * CharacterFactory::createCharacter ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Не реализованная функция создания персонажа. </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>Character* Указатель на персонажа </para>
+</formalpara>
+</para>
+<para>
+Замещается в <link linkend="_class_archer_factory_1ab6649aa2561984b9001ace4bcda3db64">ArcherFactory</link>, <link linkend="_class_knight_factory_1a0ca5c86535309adcedd03762810aea78">KnightFactory</link>, <link linkend="_class_mage_factory_1aa4e95840bd6665e14c3eda4c280faed6">MageFactory</link> и <link linkend="_class_warrior_factory_1a9df8c9e4fc56457d08ff5b6535913646">WarriorFactory</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+creations-pattern/Creations Pattern/main.cpp</section>
+</section>

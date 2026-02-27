@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_knight_factory" kind="class" language="C++" prot="public">
+    <compoundname>KnightFactory</compoundname>
+    <basecompoundref refid="class_character_factory" prot="public" virt="non-virtual">CharacterFactory</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_knight_factory_1a0ca5c86535309adcedd03762810aea78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_character" kindref="compound">Character</ref> *</type>
+        <definition>Character * KnightFactory::createCharacter</definition>
+        <argsstring>() override</argsstring>
+        <name>createCharacter</name>
+        <qualifiedname>KnightFactory::createCharacter</qualifiedname>
+        <reimplements refid="class_character_factory_1a3e6c731ccaf371b16220933036207dba">createCharacter</reimplements>
+        <briefdescription>
+<para>Реализация функции создания рыцаря. Создаёт рыцаря. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Character* Указатель на рыцаря. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="creations-pattern/Creations Pattern/main.cpp" line="186" column="11" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="186" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Реализация фабрики рыцарей. Наследует абстрактный класс фабрики персонаже </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CharacterFactory</label>
+        <link refid="class_character_factory"/>
+      </node>
+      <node id="1">
+        <label>KnightFactory</label>
+        <link refid="class_knight_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CharacterFactory</label>
+        <link refid="class_character_factory"/>
+      </node>
+      <node id="1">
+        <label>KnightFactory</label>
+        <link refid="class_knight_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="creations-pattern/Creations Pattern/main.cpp" line="180" column="1" bodyfile="creations-pattern/Creations Pattern/main.cpp" bodystart="180" bodyend="187"/>
+    <listofallmembers>
+      <member refid="class_knight_factory_1a0ca5c86535309adcedd03762810aea78" prot="public" virt="virtual"><scope>KnightFactory</scope><name>createCharacter</name></member>
+      <member refid="class_character_factory_1a6f13a9955e9286aac376e8c4445f2664" prot="public" virt="non-virtual"><scope>KnightFactory</scope><name>spawnAndAttack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

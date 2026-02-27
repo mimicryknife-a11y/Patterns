@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_espresso" xml:lang="ru">
+<title>Класс Espresso</title>
+<indexterm><primary>Espresso</primary></indexterm>
+<para>
+
+<para>Напиток экспрессо Наследует интерфейс напитка </para>
+ 
+</para>
+<para>Граф наследования:Espresso:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_espresso.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_espresso_1a03a8c6439c9c2db55b890cda1b58a6a6">getDescription</link> () override</para>
+
+<para>Получает описание напитка </para>
+</listitem>
+            <listitem><para>double <link linkend="_class_espresso_1a4225caad3e77e9364d56243f68971e64">getCost</link> () override</para>
+
+<para>Получает стоимость напитка </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Напиток экспрессо Наследует интерфейс напитка </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_espresso_1a4225caad3e77e9364d56243f68971e64"/><section>
+    <title>getCost()</title>
+<indexterm><primary>getCost</primary><secondary>Espresso</secondary></indexterm>
+<indexterm><primary>Espresso</primary><secondary>getCost</secondary></indexterm>
+<para><computeroutput>double Espresso::getCost ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает стоимость напитка </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>double Стоимость напитка </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_beverage_1a65460ff419cb88cce7c465f719b0c1f4">Beverage</link>.</para>
+</section>
+<anchor xml:id="_class_espresso_1a03a8c6439c9c2db55b890cda1b58a6a6"/><section>
+    <title>getDescription()</title>
+<indexterm><primary>getDescription</primary><secondary>Espresso</secondary></indexterm>
+<indexterm><primary>Espresso</primary><secondary>getDescription</secondary></indexterm>
+<para><computeroutput>string Espresso::getDescription ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Получает описание напитка </para>
+</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>string Описание </para>
+</formalpara>
+</para>
+<para>
+Замещает <link linkend="_class_beverage_1a23e305526d707afe1a006e441a71a8b8">Beverage</link>.</para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+structure-pattern/Structural Pattern/main.cpp</section>
+</section>

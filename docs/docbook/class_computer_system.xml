@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_computer_system" xml:lang="ru">
+<title>Класс ComputerSystem</title>
+<indexterm><primary>ComputerSystem</primary></indexterm>
+<para>
+
+<para>Класс компьютера </para>
+ 
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_computer_system_1a6b5f96a17a69ad15b8df80ab96f000d9">openFile</link> (const string &amp;file)</para>
+
+<para>Открывает файл </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_computer_system_1a53b220c30feb7282f9acfd755bd6dffd"/>void <emphasis role="strong">shutdown</emphasis> ()</para>
+
+<para>Выключает компьютер </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_computer_system_1a23cc81ddb3f1661bd9a1654c38639ff5"/>void <emphasis role="strong">launchBrowser</emphasis> ()</para>
+
+<para>Включаем браузер </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Класс компьютера </para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_computer_system_1a6b5f96a17a69ad15b8df80ab96f000d9"/><section>
+    <title>openFile()</title>
+<indexterm><primary>openFile</primary><secondary>ComputerSystem</secondary></indexterm>
+<indexterm><primary>ComputerSystem</primary><secondary>openFile</secondary></indexterm>
+<para><computeroutput>void ComputerSystem::openFile (const string &amp; file)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Открывает файл </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>file</entry><entry>
+<para>Название файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+behavioral-pattern/Behavioral pattern/main.cpp</section>
+</section>

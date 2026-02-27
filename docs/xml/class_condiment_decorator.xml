@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_condiment_decorator" kind="class" language="C++" prot="public">
+    <compoundname>CondimentDecorator</compoundname>
+    <basecompoundref refid="class_beverage" prot="public" virt="non-virtual">Beverage</basecompoundref>
+    <derivedcompoundref refid="class_golden_poop" prot="public" virt="non-virtual">GoldenPoop</derivedcompoundref>
+    <derivedcompoundref refid="class_milk" prot="public" virt="non-virtual">Milk</derivedcompoundref>
+    <derivedcompoundref refid="class_sugar" prot="public" virt="non-virtual">Sugar</derivedcompoundref>
+    <derivedcompoundref refid="class_syrup" prot="public" virt="non-virtual">Syrup</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_condiment_decorator_1a88e7aee32fb2f878046db515945bd672" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_beverage" kindref="compound">Beverage</ref> *</type>
+        <definition>Beverage* CondimentDecorator::beverage</definition>
+        <argsstring></argsstring>
+        <name>beverage</name>
+        <qualifiedname>CondimentDecorator::beverage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="69" column="10" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CondimentDecorator::CondimentDecorator</definition>
+        <argsstring>(Beverage *beverage)</argsstring>
+        <name>CondimentDecorator</name>
+        <qualifiedname>CondimentDecorator::CondimentDecorator</qualifiedname>
+        <param>
+          <type><ref refid="class_beverage" kindref="compound">Beverage</ref> *</type>
+          <declname>beverage</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор напитка </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beverage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>напиток родитель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="75" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="75" bodyend="75"/>
+        <referencedby refid="class_golden_poop_1afa2d9fda56b6c401ef096a03824b54e0" compoundref="structure-pattern_2_structural_01_pattern_2main_8cpp" startline="175" endline="175">GoldenPoop::GoldenPoop</referencedby>
+        <referencedby refid="class_milk_1a50613147fa2dc42e220967095df504dd" compoundref="structure-pattern_2_structural_01_pattern_2main_8cpp" startline="100" endline="100">Milk::Milk</referencedby>
+        <referencedby refid="class_sugar_1abff38f40065b079e2de45d1dc8dfe5f1" compoundref="structure-pattern_2_structural_01_pattern_2main_8cpp" startline="125" endline="125">Sugar::Sugar</referencedby>
+        <referencedby refid="class_syrup_1a4d3eab679a06bff1fce71eeb3ebad94f" compoundref="structure-pattern_2_structural_01_pattern_2main_8cpp" startline="150" endline="150">Syrup::Syrup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string CondimentDecorator::getDescription</definition>
+        <argsstring>() override</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>CondimentDecorator::getDescription</qualifiedname>
+        <reimplements refid="class_beverage_1a23e305526d707afe1a006e441a71a8b8">getDescription</reimplements>
+        <reimplementedby refid="class_golden_poop_1a7bc9980feb96e85e6c760ebffc749305">getDescription</reimplementedby>
+        <reimplementedby refid="class_milk_1a693769c2fd19713253939665d12fa5ab">getDescription</reimplementedby>
+        <reimplementedby refid="class_sugar_1afe82094b43e6da7041983c35bfb7197b">getDescription</reimplementedby>
+        <reimplementedby refid="class_syrup_1ae59f9838cff7fa21d989a373c1634bfe">getDescription</reimplementedby>
+        <briefdescription>
+<para>Получает описание родителя </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string Возвращает описание родителя </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="81" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double CondimentDecorator::getCost</definition>
+        <argsstring>() override</argsstring>
+        <name>getCost</name>
+        <qualifiedname>CondimentDecorator::getCost</qualifiedname>
+        <reimplements refid="class_beverage_1a65460ff419cb88cce7c465f719b0c1f4">getCost</reimplements>
+        <reimplementedby refid="class_golden_poop_1a130a2f96d713af40b8d032d4b155c8c6">getCost</reimplementedby>
+        <reimplementedby refid="class_milk_1a81e434be08b65ff9e5a445c393fde68d">getCost</reimplementedby>
+        <reimplementedby refid="class_sugar_1a6518625592942a5a36f2bc6d845ca48d">getCost</reimplementedby>
+        <reimplementedby refid="class_syrup_1a25d5acf5e71a41da1a42bba6973103a1">getCost</reimplementedby>
+        <briefdescription>
+<para>Получает стоимость родителя </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double Возвращает стоимость родителя </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="structure-pattern/Structural Pattern/main.cpp" line="87" column="8" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="87" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Декоратор напитка Наследует интерфейс напитка </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="1">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GoldenPoop</label>
+        <link refid="class_golden_poop"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Milk</label>
+        <link refid="class_milk"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Sugar</label>
+        <link refid="class_sugar"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Syrup</label>
+        <link refid="class_syrup"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Beverage</label>
+        <link refid="class_beverage"/>
+      </node>
+      <node id="1">
+        <label>CondimentDecorator</label>
+        <link refid="class_condiment_decorator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>beverage</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="structure-pattern/Structural Pattern/main.cpp" line="67" column="1" bodyfile="structure-pattern/Structural Pattern/main.cpp" bodystart="67" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_condiment_decorator_1a88e7aee32fb2f878046db515945bd672" prot="protected" virt="non-virtual"><scope>CondimentDecorator</scope><name>beverage</name></member>
+      <member refid="class_condiment_decorator_1a15b5ebd546cbdb63c7097d72bf6b6faf" prot="public" virt="non-virtual"><scope>CondimentDecorator</scope><name>CondimentDecorator</name></member>
+      <member refid="class_condiment_decorator_1a13d93696470b1f11fce6b66d250c78df" prot="public" virt="virtual"><scope>CondimentDecorator</scope><name>getCost</name></member>
+      <member refid="class_condiment_decorator_1a0f95d1319daadd8ed01b2ffaa3c601d6" prot="public" virt="virtual"><scope>CondimentDecorator</scope><name>getDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

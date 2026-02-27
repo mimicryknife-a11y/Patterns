@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="class_shutdown_command" kind="class" language="C++" prot="public">
+    <compoundname>ShutdownCommand</compoundname>
+    <basecompoundref refid="class_command" prot="public" virt="non-virtual">Command</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shutdown_command_1a4e9dbad96f52f5bb2ef356c89ffa1216" prot="private" static="no" mutable="no">
+        <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+        <definition>ComputerSystem* ShutdownCommand::system</definition>
+        <argsstring></argsstring>
+        <name>system</name>
+        <qualifiedname>ShutdownCommand::system</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="82" column="16" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shutdown_command_1ace3e2cb8fc412dd71df920281e9442c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ShutdownCommand::ShutdownCommand</definition>
+        <argsstring>(ComputerSystem *system)</argsstring>
+        <name>ShutdownCommand</name>
+        <qualifiedname>ShutdownCommand::ShutdownCommand</qualifiedname>
+        <param>
+          <type><ref refid="class_computer_system" kindref="compound">ComputerSystem</ref> *</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор команды </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>system Указатель на систему </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="89" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shutdown_command_1a9fbcb462c911ed9a45e40d7617846395" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ShutdownCommand::execute</definition>
+        <argsstring>() override</argsstring>
+        <name>execute</name>
+        <qualifiedname>ShutdownCommand::execute</qualifiedname>
+        <reimplements refid="class_command_1a6fd7d9bd8df8bfc881e4d6c7cd1878b7">execute</reimplements>
+        <briefdescription>
+<para>Функция выполнения команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="94" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shutdown_command_1a1ab55b9c24bc00698d95e4ff0f695087" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ShutdownCommand::undo</definition>
+        <argsstring>() override</argsstring>
+        <name>undo</name>
+        <qualifiedname>ShutdownCommand::undo</qualifiedname>
+        <reimplements refid="class_command_1ad5eccd34dc85abda2cd0c21d819c17dc">undo</reimplements>
+        <briefdescription>
+<para>Функция отмены команды </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="99" column="6" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="99" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Команды выключения компьютера Наследует интерфейс команды </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>ShutdownCommand</label>
+        <link refid="class_shutdown_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Command</label>
+        <link refid="class_command"/>
+      </node>
+      <node id="1">
+        <label>ShutdownCommand</label>
+        <link refid="class_shutdown_command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="behavioral-pattern/Behavioral pattern/main.cpp" line="80" column="1" bodyfile="behavioral-pattern/Behavioral pattern/main.cpp" bodystart="80" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_shutdown_command_1a9fbcb462c911ed9a45e40d7617846395" prot="public" virt="virtual"><scope>ShutdownCommand</scope><name>execute</name></member>
+      <member refid="class_shutdown_command_1ace3e2cb8fc412dd71df920281e9442c5" prot="public" virt="non-virtual"><scope>ShutdownCommand</scope><name>ShutdownCommand</name></member>
+      <member refid="class_shutdown_command_1a4e9dbad96f52f5bb2ef356c89ffa1216" prot="private" virt="non-virtual"><scope>ShutdownCommand</scope><name>system</name></member>
+      <member refid="class_shutdown_command_1a1ab55b9c24bc00698d95e4ff0f695087" prot="public" virt="virtual"><scope>ShutdownCommand</scope><name>undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
